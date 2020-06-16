@@ -1,0 +1,2337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00ACE9C2FC7D4BC0826C0406 /* Galano Grotesque Alt Semi Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AE3AC9FFC84447D197BFABC3 /* Galano Grotesque Alt Semi Bold.otf */; };
+		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		00E356F31AD99517003FC87E /* MedicalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MedicalAppTests.m */; };
+		019A7B2C17C64C7298059A5C /* Open Sans Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1E1C84E515B47309236926A /* Open Sans Semibold.ttf */; };
+		05FFFDC64ADB4161A8D2CCE9 /* GalanoGrotesque-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F79BAA4B02084EA29D6626F7 /* GalanoGrotesque-SemiBold.otf */; };
+		08AC7E4042F5438DAFFD76B0 /* Galano Grotesque Alt Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF2241BFCDD442068C0722C5 /* Galano Grotesque Alt Black Italic.otf */; };
+		0A4973BB4C214071B5DAEA85 /* GalanoGrotesqueDEMO-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 663CDC81D3204E009AFBC231 /* GalanoGrotesqueDEMO-Bold.otf */; };
+		0CC7151588AF45048156A9B8 /* Galano Grotesque Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = B6F63937C9994BB48C550FBA /* Galano Grotesque Alt Light.otf */; };
+		0D6D3A44981644B4A5905E9C /* Galano Grotesque Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7D27266A8558437A9D6B6C93 /* Galano Grotesque Heavy.woff */; };
+		0DB78B4455AB44D295E9F5C2 /* GalanoGrotesque-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B10C73830C6D4ACC9A387327 /* GalanoGrotesque-Medium.otf */; };
+		0EB7A669669D4631AEE4D3FA /* Galano Grotesque Alt Extra Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6887FE9E16E437E8FF442F9 /* Galano Grotesque Alt Extra Bold Italic.otf */; };
+		0F893210BC3A406684CA498E /* GalanoGrotesqueAlt-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A783E9BDD39E49F0BDC113EC /* GalanoGrotesqueAlt-ExtraBold.otf */; };
+		1040529AC146459F83E04FE8 /* Galano Grotesque Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DF74767F55D54BB88E8D22F3 /* Galano Grotesque Bold Italic.otf */; };
+		10C4EA302DEE4B09ACB97271 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4A23B97F8A849259F911F86 /* MaterialCommunityIcons.ttf */; };
+		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		16BD545D5EE44F56871007FB /* GalanoGrotesque-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A35BD5883A894C61AEDC4916 /* GalanoGrotesque-Heavy.otf */; };
+		1821141DDE2847D18A2EFA58 /* Galano Grotesque Alt Extra Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = FAACDEA9224442B2BDF6D25A /* Galano Grotesque Alt Extra Light.woff */; };
+		1AB2C87763914EB1AF362127 /* Galano Grotesque Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 7FA0E9D3FB8E4158B23C5F4B /* Galano Grotesque Bold.woff */; };
+		1C3412DB6D044675AC649EB2 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66420F845ED1429893437E7D /* OpenSans-Italic.ttf */; };
+		1C3A571A05FC443FBD144C45 /* Galano Grotesque Alt Extra Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E79690A06614425DAA745382 /* Galano Grotesque Alt Extra Light.otf */; };
+		1CFDEEA866584F09A313FA22 /* Galano Grotesque Alt Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31EB72ACA5C24870A6917C84 /* Galano Grotesque Alt Light Italic.otf */; };
+		1FC571FC9DB048D0BDE29781 /* Galano Grotesque Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D4353685C2A547CEA9606B1C /* Galano Grotesque Italic.otf */; };
+		2327A7CB23384DC2B0A0F4D8 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A3F289DC3564D2EBACDD94B /* OpenSans-SemiboldItalic.ttf */; };
+		241B89B399C54B3DB4C2D02A /* digital-7 italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF797AB1CB5D49D0A6178859 /* digital-7 italic.ttf */; };
+		2452A7AEF34643578ECF6804 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2E880F5915F4FCB8B811F95 /* Ionicons.ttf */; };
+		2535FE81FDCF4D138A36A15D /* Galano Grotesque Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1ADDC73C52914B0DAD919CF7 /* Galano Grotesque Medium.otf */; };
+		26107DB782624A9ABAB3779E /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E404AF83379F4877A133C5E2 /* FontAwesome.ttf */; };
+		266C90667D424A37946542AD /* Galano Grotesque Alt Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E87A45E4D6245E9AC8E3905 /* Galano Grotesque Alt Medium Italic.otf */; };
+		267DC22E88A54F839DB9D092 /* GalanoGrotesque-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = A25F41817C264067B1014E52 /* GalanoGrotesque-ExtraLight.otf */; };
+		284DDD6C19724750A9EA60ED /* Galano Grotesque Alt Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = B3D278E82E9E4F058768B9FD /* Galano Grotesque Alt Thin.woff */; };
+		28935785617C473CB0FF1A1D /* Galano Grotesque.woff in Resources */ = {isa = PBXBuildFile; fileRef = 96E68A8F15514125A6FAE2B2 /* Galano Grotesque.woff */; };
+		28E9D03237F2404A94F252FA /* designtnt-textures-stained-paper-set-2-6.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 327A1EB2A6134A88BC2CAAB5 /* designtnt-textures-stained-paper-set-2-6.JPG */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
+		2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */; };
+		2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */; };
+		2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */; };
+		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
+		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
+		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* MedicalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MedicalAppTests.m */; };
+		2DDD9ECCEB424C3DA160735D /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2105294AE5FB429F9774EF66 /* FontAwesome5_Regular.ttf */; };
+		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		2E3C12F2645F41CFB77989DB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 15C2D6F89B144704B38BE3B8 /* EvilIcons.ttf */; };
+		2EB51A0806AF448BAFEE97A8 /* digital-7 mono italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0C48FF10943462AAEFABB45 /* digital-7 mono italic.ttf */; };
+		31FAE1E739E140E09CB9E0E3 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 456F5FDDF48C46AE89017B76 /* OpenSans-ExtraBoldItalic.ttf */; };
+		32B89ABE3741490F87C22FB2 /* GalanoGrotesque-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FA4919E6D2343A5BCB16C4E /* GalanoGrotesque-ExtraBold.otf */; };
+		33492F6C722A4F22B5EAB8D4 /* GalanoGrotesque-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E212637CA5254D80A4720F61 /* GalanoGrotesque-Bold.otf */; };
+		35B5B50936F34FC48589C058 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6412E7DE4494FBA743ECF /* Foundation.ttf */; };
+		373935CD471143FD9A35D278 /* Digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52BB1DD5A31A483CB50DF9B2 /* Digital-7.ttf */; };
+		3793716C9FEA4D549FC86973 /* Galano Grotesque Alt DEMO Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EDA47E25FD34305A3DCDC26 /* Galano Grotesque Alt DEMO Bold.otf */; };
+		3C8115AC7BA14680AADAD40B /* designtnt-textures-stained-paper-set-2-1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 448D4AFA518D4033972D0D2C /* designtnt-textures-stained-paper-set-2-1.JPG */; };
+		3CC855E542F44D918BE55097 /* Galano Grotesque Alt Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3251F0F0A4384961BEBF249F /* Galano Grotesque Alt Black.otf */; };
+		400AA62569564284A84C5743 /* Galano Grotesque Extra Bold Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = D60CF038492347A78C8C128F /* Galano Grotesque Extra Bold Italic.woff */; };
+		4017CB68EF4D403691ACF9C1 /* GalanoGrotesqueAlt-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 835687D840BA4607A48F65C6 /* GalanoGrotesqueAlt-ExtraBoldItalic.otf */; };
+		43F911F64CFA42AEB1608FAD /* Galano Grotesque Alt Semi Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B1712BAD0D3F4D05BB4C259B /* Galano Grotesque Alt Semi Bold Italic.otf */; };
+		477704DD46DC4EC8852E4B94 /* Galano Grotesque Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 044A018A9DFD42689B5F4CD6 /* Galano Grotesque Bold.otf */; };
+		48BE6CD600DC470287582DAF /* Galano Grotesque Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3DB0251FECCC4616867667FF /* Galano Grotesque Black.woff */; };
+		49DEB4BDC70A4B79A65370F5 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FB0CD5448743858B7DFE40 /* libRNVectorIcons.a */; };
+		4ACDC3F4FE6043AF9D099591 /* GalanoGrotesqueAlt-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13F2DD6195B44F17884A127F /* GalanoGrotesqueAlt-MediumItalic.otf */; };
+		4B4CB853902345CDA583289A /* GalanoGrotesque-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189C74A7DC9940218EFEF041 /* GalanoGrotesque-HeavyItalic.otf */; };
+		4CDE9625EB4D4123A435C784 /* Galano Grotesque Alt Extra Light Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 13480E62485A470BA99B70A7 /* Galano Grotesque Alt Extra Light Italic.woff */; };
+		4CE09425987A4A54B47A19DD /* Galano Grotesque Alt Semi Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6B00844C237B45529340DD9C /* Galano Grotesque Alt Semi Bold.woff */; };
+		52FDEEF05B6748C1BF89F15C /* GalanoGrotesque-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF54B6964B4BBCAB8E4309 /* GalanoGrotesque-MediumItalic.otf */; };
+		53E019AD03D948779B9C8D83 /* libRNSVG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2903FBBB1C40B8979DFEAA /* libRNSVG-tvOS.a */; };
+		543977DE3A7B4851BE3DC0E6 /* Open Sans Extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 367241B077C94D609456B05C /* Open Sans Extrabold.ttf */; };
+		560E87C9CC734199A5857CAD /* designtnt-textures-stained-paper-set-2-8.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5ED2CF3FDD0745F8AE8E9D2C /* designtnt-textures-stained-paper-set-2-8.JPG */; };
+		5697D516E9404D16843FDBB7 /* Galano Grotesque Black Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 74283D3FC8D149878E638CEB /* Galano Grotesque Black Italic.woff */; };
+		58D80C8EBB4A44B492341DB5 /* Galano Grotesque Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7C70BE4132C148BA9C8F318F /* Galano Grotesque Alt Bold.otf */; };
+		5AC21B5A30CC4D6A9B8A7924 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89481B3DBC1343BB88BD5983 /* OpenSans-ExtraBold.ttf */; };
+		5B4CC872B340443D9EC0B1F7 /* Galano Grotesque Alt Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79B50A7D9B2C4DC9B80195BB /* Galano Grotesque Alt Bold Italic.otf */; };
+		5B8EFC31753F4E94A8B66CC4 /* libRNMeasureText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E41844BF50E64903A3AEA83D /* libRNMeasureText.a */; };
+		5BB1AB3DE1B546B1A3ED2BC5 /* GalanoGrotesqueAlt-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D23C4ECB589E4906A269E24C /* GalanoGrotesqueAlt-Italic.otf */; };
+		5BE97DFF2E2849CC8382ACC0 /* Galano Grotesque Alt Semi Bold Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 435C1470BFC040209186BB1F /* Galano Grotesque Alt Semi Bold Italic.woff */; };
+		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		602675FB91634A9E8CBCF51E /* Galano Grotesque Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3ED2375D773A4DF588D8BAFA /* Galano Grotesque Thin.woff */; };
+		60DE67E0F81D46B68FF05CA9 /* designtnt-textures-stained-paper-set-2-3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 60C94DA5E63645B993BE386F /* designtnt-textures-stained-paper-set-2-3.JPG */; };
+		618A70C389804A1280DE0900 /* Galano Grotesque Thin Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0827B04E6A6A40818AECB36B /* Galano Grotesque Thin Italic.woff */; };
+		61E85DD758294C5999A88294 /* Galano Grotesque Alt Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3D34FF92BCF84C2C9F5042D7 /* Galano Grotesque Alt Light.woff */; };
+		6246489427C54647B518209C /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96FDD7AEAB3D42819F51E4A3 /* MaterialIcons.ttf */; };
+		636813EAA59043318A9CCA95 /* GalanoGrotesqueAlt-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7A71078D4DC44761B44D2895 /* GalanoGrotesqueAlt-SemiBold.otf */; };
+		6405B2991B9F467094B93696 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A022796CFF6416BB791A537 /* OpenSans-Bold.ttf */; };
+		64492E77D18C4577AB93A581 /* Galano Grotesque Alt Extra Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = E3D6F7A962B145A4826A6007 /* Galano Grotesque Alt Extra Bold.woff */; };
+		645513EAA9974B7E957FB9DA /* GalanoGrotesqueAlt-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 14AD648E293A42B88AF894FB /* GalanoGrotesqueAlt-Heavy.otf */; };
+		65E157B71B7C4DA7B953FA9A /* Galano Grotesque Alt Thin Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = DB5F3F0E2FFA4E2680B0504F /* Galano Grotesque Alt Thin Italic.woff */; };
+		66DA18C1080F4D8CBE535EEB /* Galano Grotesque Semi Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A58CC6E7F17C4D8283220A74 /* Galano Grotesque Semi Bold Italic.otf */; };
+		66F641BC7CCD40B4BEBE414C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F1D4E1BC4CF46BDA8702E73 /* OpenSans-Regular.ttf */; };
+		681A181F658B4AA3951829C1 /* Galano Grotesque Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4EF256C2E9CC4BAAACBDD5D6 /* Galano Grotesque Thin.otf */; };
+		681C9FC0F17B4F4CBEC15FDA /* GalanoGrotesque-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C5CF56E65F2A4ADC9542B025 /* GalanoGrotesque-Italic.otf */; };
+		697D52515C3847D590E72993 /* GalanoGrotesque-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F55E0B3DC7864B8B82DF9329 /* GalanoGrotesque-ThinItalic.otf */; };
+		6A43896848D1458795F54CA4 /* designtnt-textures-stained-paper-set-2-2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BF8EEDBBD304F4FB0FFD0C4 /* designtnt-textures-stained-paper-set-2-2.JPG */; };
+		6A684B542D40406DA62D77C7 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 408B8C45427F4E0A9EED6711 /* FontAwesome5_Solid.ttf */; };
+		6B66C26C44144E7FB44D9C1E /* GalanoGrotesqueAlt-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D985EBCBE6843DDB86EB35D /* GalanoGrotesqueAlt-ExtraLightItalic.otf */; };
+		6F1C3926AC374C03BFAB4AB0 /* Galano Grotesque Alt Extra Bold Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = CCB2C6873FAB4CA08671D646 /* Galano Grotesque Alt Extra Bold Italic.woff */; };
+		6FDE52ED02B84E7D9B6EC86F /* GalanoGrotesque-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 12ED4062859D4FA1B1077C71 /* GalanoGrotesque-ExtraLightItalic.otf */; };
+		736E277C6E5341D5878D695C /* Galano Grotesque Extra Light Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 16D99E348C274BE0806F438C /* Galano Grotesque Extra Light Italic.woff */; };
+		738D06FB7DBA468ABD70AEF7 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C5B540378F4085BE5189C8 /* OpenSans-LightItalic.ttf */; };
+		765A8F9431DE466EB1C7F23A /* Galano Grotesque Extra Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EF45950712BD4E5EAA3FB0C7 /* Galano Grotesque Extra Light Italic.otf */; };
+		7977BA1AF47C4303BC255A04 /* GalanoGrotesque-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4BE408A8E2F4DED8248EC50 /* GalanoGrotesque-Regular.otf */; };
+		7A45F93113614EDFBEF8C2F5 /* GalanoGrotesque-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3D4C22AEE24E469389F89F22 /* GalanoGrotesque-Black.otf */; };
+		7B14B3A1E2BF434A9396F4E0 /* Galano Grotesque Semi Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CF0795527FE2410F8C7B9FF7 /* Galano Grotesque Semi Bold.otf */; };
+		7C15275AA55D464DAA666240 /* Galano Grotesque Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA053B178DE048348830B793 /* Galano Grotesque Black Italic.otf */; };
+		80A9B3E215F6402297DFA49B /* GalanoGrotesqueAlt-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD929D663C5546618F43828C /* GalanoGrotesqueAlt-HeavyItalic.otf */; };
+		81C91A0E0DDE4F3DB20C9DBB /* GalanoGrotesque-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7130B5C4C8624E1FA87C872A /* GalanoGrotesque-BoldItalic.otf */; };
+		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		83702CB2E06E4109A9ACAE2B /* GalanoGrotesqueAlt-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = A962955CCE4541BD98B9B38B /* GalanoGrotesqueAlt-Black.otf */; };
+		83969EFA35A7442BA9E354E2 /* Galano Grotesque Alt Heavy.woff in Resources */ = {isa = PBXBuildFile; fileRef = E415BB4B326F46678C421B88 /* Galano Grotesque Alt Heavy.woff */; };
+		85E993ABCB3B40BD8FEC6994 /* Galano Grotesque Semi Bold Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = BFBE3E9E7D964AA5BEBEAF40 /* Galano Grotesque Semi Bold Italic.woff */; };
+		86C8CE3D18FB48EE853EDB78 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA06C9B786D74CED80C0FB13 /* SimpleLineIcons.ttf */; };
+		874B72A767CD4D4283E05E09 /* Galano Grotesque Alt Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 713B164CF53A400190697F81 /* Galano Grotesque Alt Bold.woff */; };
+		8A7B2FFBA74B45E8AE1D14AB /* Digital-7 Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C761E5E24D3747F386F9D9F8 /* Digital-7 Mono.ttf */; };
+		8D2698346DA649AF82E8E687 /* Galano Grotesque Alt Light Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = E8E00BD68B964CC6955EC1A3 /* Galano Grotesque Alt Light Italic.woff */; };
+		8D79951DC99E4D2FAA863D83 /* Galano Grotesque Alt Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E1CD72EF8ACE401DBF3C38F5 /* Galano Grotesque Alt Heavy Italic.otf */; };
+		94AD3CC5D1AA4A94A97C19E3 /* Galano Grotesque Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC2CC7EE8547C1A82585D5 /* Galano Grotesque Medium.woff */; };
+		95DE2CF64384478BB585747D /* Galano Grotesque Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CDD7148C7ABC41299E03CB32 /* Galano Grotesque Thin Italic.otf */; };
+		989D8392411D47D78F7F868A /* GalanoGrotesqueAlt-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F739FD8A70784B3E85A5F46B /* GalanoGrotesqueAlt-ExtraLight.otf */; };
+		9CC3881419124AFEBF5D21F7 /* Galano Grotesque Alt DEMO Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5A387141A28B4E58995C759A /* Galano Grotesque Alt DEMO Bold.woff */; };
+		9E42F16B38F743C48DBAAD22 /* Galano Grotesque Alt Medium Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 3789CE93B5094A9B9003BFC2 /* Galano Grotesque Alt Medium Italic.woff */; };
+		9FF590AC7B2F4F4C91527F57 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A2C5A41624047F68D9DC33D /* OpenSans-Light.ttf */; };
+		A52E7289F05C4DE19D7844AC /* Galano Grotesque Alt Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = B5DB7328FCD14E7A91A2DFFE /* Galano Grotesque Alt Italic.woff */; };
+		A8752B0FCB464235A4A101C7 /* Galano Grotesque Alt.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6E03DA6BE675472B9395815E /* Galano Grotesque Alt.woff */; };
+		A8F95B9A26D943A593573E30 /* GalanoGrotesqueAltDEMO-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 05A8FF8230A3497BA2135789 /* GalanoGrotesqueAltDEMO-Bold.otf */; };
+		AB7E384EA73F4E3A85737624 /* GalanoGrotesqueAlt-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D1837C1D8B846A38D1C605C /* GalanoGrotesqueAlt-ThinItalic.otf */; };
+		ABB7C45D7D6D4B7F8742B176 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2FFC6D2CB44CA88801265 /* OpenSans-Semibold.ttf */; };
+		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		ADBE40CCEF2B40A4AC86374B /* designtnt-textures-stained-paper-set-2-5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 61DC8978951D43D3A253AB87 /* designtnt-textures-stained-paper-set-2-5.JPG */; };
+		AFFE2188653E47C69C237A30 /* designtnt-textures-stained-paper-set-2-9.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08F26CDBB6DA4340BF389233 /* designtnt-textures-stained-paper-set-2-9.JPG */; };
+		B1613221E9A14254A5BDAE1C /* Galano Grotesque Extra Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = B00EFEE9DD29400FBA323A44 /* Galano Grotesque Extra Bold.woff */; };
+		B38387A4887C4905A60E24FD /* GalanoGrotesqueAlt-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 072EF2100812497E8577792A /* GalanoGrotesqueAlt-BoldItalic.otf */; };
+		B436363DB8614AC2BCE454A8 /* Galano Grotesque Heavy Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = FE88056C9BD6420FB7F54BB9 /* Galano Grotesque Heavy Italic.otf */; };
+		B5A18FD0C663491E804B3A7B /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 076F30A809B945238F90C92A /* Feather.ttf */; };
+		B5DCF1F240964117AE3B5BBD /* Galano Grotesque Alt Black Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 643D519B8A7F4FDBB1BD769A /* Galano Grotesque Alt Black Italic.woff */; };
+		B7024C1539D0440E84F8EDDC /* GalanoGrotesqueAlt-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D78A2A03934467394256A40 /* GalanoGrotesqueAlt-SemiBoldItalic.otf */; };
+		B8FE2F2AAC4B48C3AF108081 /* Galano Grotesque Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 047594F7A1FA4810A1E4350F /* Galano Grotesque Black.otf */; };
+		BB42D0A0FB1242759F801BC2 /* GalanoGrotesque-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = EBA03314F8F14AAF8A31096B /* GalanoGrotesque-Thin.otf */; };
+		BB8A7D31A4774DC7BC0D96F2 /* GalanoGrotesqueAlt-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7CDDE937CD040809EBDBDD3 /* GalanoGrotesqueAlt-Thin.otf */; };
+		BC0DF85364DF4B03ADCFD488 /* Galano Grotesque Extra Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 75399619A39A4811AE1E5DA6 /* Galano Grotesque Extra Light.otf */; };
+		BD621995A7844984BE31CECA /* GalanoGrotesque-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEEABC89E2C4450B26769D1 /* GalanoGrotesque-Light.otf */; };
+		BDD342BE65FD40349E22E949 /* Galano Grotesque Alt Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC65EE26F4804FA4804FC3AD /* Galano Grotesque Alt Medium.otf */; };
+		BEA19A3B79134AEABF815171 /* Galano Grotesque Heavy Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 11DDA1625F92447AA9DCBDA3 /* Galano Grotesque Heavy Italic.woff */; };
+		C1DB7860BC094DC79ACABBBC /* GalanoGrotesque-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6833CD1E3A06496A8EC29261 /* GalanoGrotesque-ExtraBoldItalic.otf */; };
+		C1E433D6772D4EDCB05276F7 /* Galano Grotesque Alt Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 15FC3E088AEB4E3D8F3742B2 /* Galano Grotesque Alt Extra Bold.otf */; };
+		C2047C0752B14808A9CA850B /* Galano Grotesque Alt Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = AAC22D160E154A6EAF8C8502 /* Galano Grotesque Alt Heavy.otf */; };
+		C23515569C1B4013A0E427E4 /* Galano Grotesque Light Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = F6F303E1B6EF4514AB32C932 /* Galano Grotesque Light Italic.woff */; };
+		C2911C0166B0482EB6FC1D5D /* GalanoGrotesqueAlt-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DEDA6C3EC0C469E841D4841 /* GalanoGrotesqueAlt-Medium.otf */; };
+		C2FDA9CFD0D74D828AA5895F /* Galano Grotesque Extra Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1344067022D34217B1D1C8DA /* Galano Grotesque Extra Light.woff */; };
+		C3EB32D9450D420C95EAA9AD /* GalanoGrotesque-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5F0D33787CF4C8B85C4E928 /* GalanoGrotesque-SemiBoldItalic.otf */; };
+		C6E52441D5F44BF1BFA39B50 /* Digital-7 Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85E2247F1F284598B4F36B25 /* Digital-7 Italic.ttf */; };
+		C74314C3470049548108DD2A /* Galano Grotesque Alt Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38EA2CC4B5354EFC87CF2E07 /* Galano Grotesque Alt Thin Italic.otf */; };
+		C9FC1CCB79824F6FABF3D1BD /* Galano Grotesque Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = EE70FE6647DB476AA698D04B /* Galano Grotesque Italic.woff */; };
+		CA9E29432B0D4DCB9CE6AA07 /* digital-7 mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 99771D19D0EB4D1291E4E169 /* digital-7 mono.ttf */; };
+		CCA81A3A876943569A4B3CCF /* Galano Grotesque Alt Extra Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F6E869CBA2E4C6F8D8CDFB1 /* Galano Grotesque Alt Extra Light Italic.otf */; };
+		CD8218D4D3244D63B930EDDC /* GalanoGrotesqueAlt-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E54F555E94D44AA6A60E9480 /* GalanoGrotesqueAlt-BlackItalic.otf */; };
+		D0783071BE7942C59EFB8BFB /* Open Sans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3895179FB4D4012B5930D8C /* Open Sans.ttf */; };
+		D1EB8BEF9F5640EAA5D7738F /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F356DFBF9DE64870B37227AD /* Zocial.ttf */; };
+		D6D24AF7521E402EADDF9701 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26B0A8DCE65641289B8F8BD1 /* Octicons.ttf */; };
+		D73362829A66453491AD3B01 /* Galano Grotesque Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2F27A41C0AD470DA5B4A4A2 /* Galano Grotesque Heavy.otf */; };
+		D734DFB6C4694DB395F08859 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 911491AD21EB4C74A48D1E95 /* OpenSans-BoldItalic.ttf */; };
+		D8015D6D763F4B418B7E2D39 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9907608E42C148B1BB698C00 /* FontAwesome5_Brands.ttf */; };
+		D8FA6C52F338402582153B80 /* Galano Grotesque Semi Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8BAF53DAAEC040E88DEDFF8E /* Galano Grotesque Semi Bold.woff */; };
+		DBD3CAC5713742179A885D1F /* Galano Grotesque Alt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0364E774D890429F8D701329 /* Galano Grotesque Alt.otf */; };
+		DC35C0729F2E414FAFBF3B98 /* GalanoGrotesqueAlt-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1044C09DDB094C168CEBF6C0 /* GalanoGrotesqueAlt-LightItalic.otf */; };
+		DDF584C4744340DBB7BC02CA /* Galano Grotesque DEMO Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 30C708D90AFE460D9B8EA7D7 /* Galano Grotesque DEMO Bold.woff */; };
+		DEB715A96E814D32AAE78840 /* Galano Grotesque DEMO Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBFB61D9F7E047A39AA85AB6 /* Galano Grotesque DEMO Bold.otf */; };
+		DF76B9DAEE4C4CDB989CB806 /* Galano Grotesque Alt Heavy Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = C530899AA3074832884AAB90 /* Galano Grotesque Alt Heavy Italic.woff */; };
+		E037232FEF65422AABE85ACB /* Galano Grotesque Bold Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 8E7FF20957A149FFB0166CFF /* Galano Grotesque Bold Italic.woff */; };
+		E091249C228C42979B3DB132 /* Galano Grotesque Alt Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = D6C22C7C759C4CDA9D562F55 /* Galano Grotesque Alt Medium.woff */; };
+		E144CF36A6C046BE81BC1EFE /* GalanoGrotesque-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD3B643ED9344D92818F0903 /* GalanoGrotesque-LightItalic.otf */; };
+		E15EC13393AC402B8DE77BA9 /* Galano Grotesque Extra Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58F7B5392D5C44ECB4F6EA55 /* Galano Grotesque Extra Bold Italic.otf */; };
+		E21737CE75FC42FEA99D59BF /* Galano Grotesque Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB2FB3ACCBA4956BCF342DC /* Galano Grotesque Light.otf */; };
+		E2718FDC03C64C36BC22E12E /* Galano Grotesque Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4C5E752610F44D8DBF9D703E /* Galano Grotesque Light Italic.otf */; };
+		E3257D601878411BAB8E9D7D /* Galano Grotesque Alt Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8301534FD39A4FF291986AD6 /* Galano Grotesque Alt Italic.otf */; };
+		E456AE5329F248F0A17ED10F /* designtnt-textures-stained-paper-set-2-7.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1C48B450F7AA46E294BDF511 /* designtnt-textures-stained-paper-set-2-7.JPG */; };
+		E69CA1D578AD4EC2BD0214C2 /* Galano Grotesque.otf in Resources */ = {isa = PBXBuildFile; fileRef = 46FB71546E0D4D839A841F18 /* Galano Grotesque.otf */; };
+		E6E2D5C1CF234B8B9CC9CFA0 /* GalanoGrotesque-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3676165E407E4864A3AC2B31 /* GalanoGrotesque-BlackItalic.otf */; };
+		EAAB0D6347484217AB4ED8BB /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAF4996932EE4FC192EA77CD /* Entypo.ttf */; };
+		ECE0F5AC5ADC49DDA2A2EB34 /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB41EB2B22774705ACCDDA33 /* OpenSans.ttf */; };
+		F144F008DF6C44C1B2B2A1C6 /* Galano Grotesque Alt Bold Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 74934813F03B41B4A2F9239F /* Galano Grotesque Alt Bold Italic.woff */; };
+		F18480E3A6344D31A862E491 /* GalanoGrotesqueAlt-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB32E07486774362BCCA469F /* GalanoGrotesqueAlt-Regular.otf */; };
+		F294B5B62DC749EE875262E7 /* Galano Grotesque Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8E924EB876EF427E839FDBB5 /* Galano Grotesque Medium Italic.otf */; };
+		F308C3089DE84ED4AEF3D1E6 /* Digital-7 Mono Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7161F6D7E7C44B5CBA41B8DC /* Digital-7 Mono Italic.ttf */; };
+		F39EE4F6954D40678D51D5A9 /* designtnt-textures-stained-paper-set-2-4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = EDCA3D46DE3E4147AEE44036 /* designtnt-textures-stained-paper-set-2-4.JPG */; };
+		F4FEAE92A84C44D681F7EDB7 /* Galano Grotesque Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3FC2D89DD72E4E49AD158B0E /* Galano Grotesque Alt Thin.otf */; };
+		F504DA95F10D44058B91FD5D /* Galano Grotesque Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = D2F5705F777249728E0CF875 /* Galano Grotesque Light.woff */; };
+		F6BD404DF6384868B6ED17DA /* GalanoGrotesqueAlt-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5C23BE61E6B94C8FA96C20D8 /* GalanoGrotesqueAlt-Bold.otf */; };
+		F965F01437CA4B5496077B71 /* GalanoGrotesqueAlt-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = A9CFCA0B8E764B9A965F06F9 /* GalanoGrotesqueAlt-Light.otf */; };
+		FA1CADB3C71443419D0BF8E7 /* Galano Grotesque Alt Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 418B7E91F0C3438CB3BDED88 /* Galano Grotesque Alt Black.woff */; };
+		FC50B619DA2347A9BDC563A2 /* libRNSVG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBC186FE32904D19AD262F5D /* libRNSVG.a */; };
+		FD16118149374531890B8796 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D014B1477F7D40F69E02D7C6 /* digital-7.ttf */; };
+		FD6AB9CF359D4882B3123C9D /* Galano Grotesque Medium Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 9D3C6E60D1764313B27698B4 /* Galano Grotesque Medium Italic.woff */; };
+		FF9975766D4E4303AB1E0A64 /* Galano Grotesque Extra Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 447BF3BA7D324D57AE435EAC /* Galano Grotesque Extra Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTActionSheet;
+		};
+		00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTGeolocation;
+		};
+		00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5115D1A9E6B3D00147676;
+			remoteInfo = RCTImage;
+		};
+		00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B511DB1A9E6C8500147676;
+			remoteInfo = RCTNetwork;
+		};
+		00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 832C81801AAF6DEF007FA2F7;
+			remoteInfo = RCTVibration;
+		};
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = MedicalApp;
+		};
+		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTSettings;
+		};
+		139FDEF31B06529B00C62182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C86DF461ADF2C930047B81A;
+			remoteInfo = RCTWebSocket;
+		};
+		146834031AC3E56700842450 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "MedicalApp-tvOS";
+		};
+		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADD01A681E09402E00F6D226;
+			remoteInfo = "RCTBlob-tvOS";
+		};
+		2D16E6831FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBE0D001F3B181A0099AA32;
+			remoteInfo = fishhook;
+		};
+		2D16E6851FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBE0D0D1F3B181C0099AA32;
+			remoteInfo = "fishhook-tvOS";
+		};
+		2DF0FFDE2056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		2DF0FFE02056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		2DF0FFE22056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		2DF0FFE42056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		2DF0FFE62056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		2DF0FFE82056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
+			remoteInfo = privatedata;
+		};
+		2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
+			remoteInfo = "privatedata-tvOS";
+		};
+		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A283A1D9B042B00D4039D;
+			remoteInfo = "RCTImage-tvOS";
+		};
+		3DAD3E871DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28471D9B043800D4039D;
+			remoteInfo = "RCTLinking-tvOS";
+		};
+		3DAD3E8B1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28541D9B044C00D4039D;
+			remoteInfo = "RCTNetwork-tvOS";
+		};
+		3DAD3E8F1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28611D9B046600D4039D;
+			remoteInfo = "RCTSettings-tvOS";
+		};
+		3DAD3E931DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A287B1D9B048500D4039D;
+			remoteInfo = "RCTText-tvOS";
+		};
+		3DAD3E981DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28881D9B049200D4039D;
+			remoteInfo = "RCTWebSocket-tvOS";
+		};
+		3DAD3EA21DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28131D9B038B00D4039D;
+			remoteInfo = "React-tvOS";
+		};
+		3DAD3EA41DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C059A1DE3340900C268FA;
+			remoteInfo = yoga;
+		};
+		3DAD3EA61DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3C06751DE3340C00C268FA;
+			remoteInfo = "yoga-tvOS";
+		};
+		3DAD3EA81DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9251DE5FBEC00167DC4;
+			remoteInfo = cxxreact;
+		};
+		3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
+			remoteInfo = "cxxreact-tvOS";
+		};
+		3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
+			remoteInfo = jschelpers;
+		};
+		3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
+			remoteInfo = "jschelpers-tvOS";
+		};
+		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTAnimation;
+		};
+		5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
+			remoteInfo = "RCTAnimation-tvOS";
+		};
+		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTLinking;
+		};
+		832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
+			remoteInfo = RCTText;
+		};
+		ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
+			remoteInfo = RCTBlob;
+		};
+		D36B4D7521275C710018EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17EC570E8CC4457C9AF10F85 /* RNMeasureText.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNMeasureText;
+		};
+		D36B4D7921275C710018EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E804AE07E59343B5B460FC11 /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0CF68AC11AF0540F00FF9E5C;
+			remoteInfo = RNSVG;
+		};
+		D36B4D7B21275C710018EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E804AE07E59343B5B460FC11 /* RNSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94DDAC5C1F3D024300EED511;
+			remoteInfo = "RNSVG-tvOS";
+		};
+		D36B4D7E21275C710018EC9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B5F2D0F38A6414F8A8BFD50 /* RNVectorIcons.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5DBEB1501B18CEA900B34395;
+			remoteInfo = RNVectorIcons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
+		00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTGeolocation.xcodeproj; path = "../node_modules/react-native/Libraries/Geolocation/RCTGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
+		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
+		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* MedicalAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicalAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* MedicalAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalAppTests.m; sourceTree = "<group>"; };
+		0364E774D890429F8D701329 /* Galano Grotesque Alt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt.otf"; path = "../src/assets/fonts/Galano Grotesque Alt.otf"; sourceTree = "<group>"; };
+		044A018A9DFD42689B5F4CD6 /* Galano Grotesque Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Bold.otf"; sourceTree = "<group>"; };
+		047594F7A1FA4810A1E4350F /* Galano Grotesque Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Black.otf"; path = "../src/assets/fonts/Galano Grotesque Black.otf"; sourceTree = "<group>"; };
+		05A8FF8230A3497BA2135789 /* GalanoGrotesqueAltDEMO-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAltDEMO-Bold.otf"; path = "../src/assets/fonts/GalanoGrotesqueAltDEMO-Bold.otf"; sourceTree = "<group>"; };
+		072EF2100812497E8577792A /* GalanoGrotesqueAlt-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-BoldItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-BoldItalic.otf"; sourceTree = "<group>"; };
+		076F30A809B945238F90C92A /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		0827B04E6A6A40818AECB36B /* Galano Grotesque Thin Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Thin Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Thin Italic.woff"; sourceTree = "<group>"; };
+		08F26CDBB6DA4340BF389233 /* designtnt-textures-stained-paper-set-2-9.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-9.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-9.JPG"; sourceTree = "<group>"; };
+		0D78A2A03934467394256A40 /* GalanoGrotesqueAlt-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-SemiBoldItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		0D985EBCBE6843DDB86EB35D /* GalanoGrotesqueAlt-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-ExtraLightItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		0EDA47E25FD34305A3DCDC26 /* Galano Grotesque Alt DEMO Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt DEMO Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Alt DEMO Bold.otf"; sourceTree = "<group>"; };
+		1044C09DDB094C168CEBF6C0 /* GalanoGrotesqueAlt-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-LightItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-LightItalic.otf"; sourceTree = "<group>"; };
+		11DDA1625F92447AA9DCBDA3 /* Galano Grotesque Heavy Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Heavy Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Heavy Italic.woff"; sourceTree = "<group>"; };
+		12ED4062859D4FA1B1077C71 /* GalanoGrotesque-ExtraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-ExtraLightItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		1344067022D34217B1D1C8DA /* Galano Grotesque Extra Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Light.woff"; path = "../src/assets/fonts/Galano Grotesque Extra Light.woff"; sourceTree = "<group>"; };
+		13480E62485A470BA99B70A7 /* Galano Grotesque Alt Extra Light Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Light Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Light Italic.woff"; sourceTree = "<group>"; };
+		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
+		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MedicalApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MedicalApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MedicalApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MedicalApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MedicalApp/main.m; sourceTree = "<group>"; };
+		13F2DD6195B44F17884A127F /* GalanoGrotesqueAlt-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-MediumItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-MediumItalic.otf"; sourceTree = "<group>"; };
+		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		14AD648E293A42B88AF894FB /* GalanoGrotesqueAlt-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Heavy.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Heavy.otf"; sourceTree = "<group>"; };
+		15C2D6F89B144704B38BE3B8 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		15FC3E088AEB4E3D8F3742B2 /* Galano Grotesque Alt Extra Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Bold.otf"; sourceTree = "<group>"; };
+		16D99E348C274BE0806F438C /* Galano Grotesque Extra Light Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Light Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Extra Light Italic.woff"; sourceTree = "<group>"; };
+		17EC570E8CC4457C9AF10F85 /* RNMeasureText.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNMeasureText.xcodeproj; path = "../node_modules/react-native-text-size/ios/RNMeasureText.xcodeproj"; sourceTree = "<group>"; };
+		189C74A7DC9940218EFEF041 /* GalanoGrotesque-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-HeavyItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-HeavyItalic.otf"; sourceTree = "<group>"; };
+		1ADDC73C52914B0DAD919CF7 /* Galano Grotesque Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Medium.otf"; path = "../src/assets/fonts/Galano Grotesque Medium.otf"; sourceTree = "<group>"; };
+		1AEEABC89E2C4450B26769D1 /* GalanoGrotesque-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Light.otf"; path = "../src/assets/fonts/GalanoGrotesque-Light.otf"; sourceTree = "<group>"; };
+		1B5F2D0F38A6414F8A8BFD50 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
+		1C48B450F7AA46E294BDF511 /* designtnt-textures-stained-paper-set-2-7.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-7.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-7.JPG"; sourceTree = "<group>"; };
+		1D1837C1D8B846A38D1C605C /* GalanoGrotesqueAlt-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-ThinItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-ThinItalic.otf"; sourceTree = "<group>"; };
+		1FA4919E6D2343A5BCB16C4E /* GalanoGrotesque-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-ExtraBold.otf"; path = "../src/assets/fonts/GalanoGrotesque-ExtraBold.otf"; sourceTree = "<group>"; };
+		2105294AE5FB429F9774EF66 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		26B0A8DCE65641289B8F8BD1 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* MedicalApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedicalApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* MedicalApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MedicalApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C708D90AFE460D9B8EA7D7 /* Galano Grotesque DEMO Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque DEMO Bold.woff"; path = "../src/assets/fonts/Galano Grotesque DEMO Bold.woff"; sourceTree = "<group>"; };
+		31EB72ACA5C24870A6917C84 /* Galano Grotesque Alt Light Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Light Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Light Italic.otf"; sourceTree = "<group>"; };
+		3251F0F0A4384961BEBF249F /* Galano Grotesque Alt Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Black.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Black.otf"; sourceTree = "<group>"; };
+		327A1EB2A6134A88BC2CAAB5 /* designtnt-textures-stained-paper-set-2-6.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-6.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-6.JPG"; sourceTree = "<group>"; };
+		367241B077C94D609456B05C /* Open Sans Extrabold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Open Sans Extrabold.ttf"; path = "../src/assets/fonts/Open Sans Extrabold.ttf"; sourceTree = "<group>"; };
+		3676165E407E4864A3AC2B31 /* GalanoGrotesque-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-BlackItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-BlackItalic.otf"; sourceTree = "<group>"; };
+		3789CE93B5094A9B9003BFC2 /* Galano Grotesque Alt Medium Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Medium Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Medium Italic.woff"; sourceTree = "<group>"; };
+		38EA2CC4B5354EFC87CF2E07 /* Galano Grotesque Alt Thin Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Thin Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Thin Italic.otf"; sourceTree = "<group>"; };
+		3D34FF92BCF84C2C9F5042D7 /* Galano Grotesque Alt Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Light.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Light.woff"; sourceTree = "<group>"; };
+		3D4C22AEE24E469389F89F22 /* GalanoGrotesque-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Black.otf"; path = "../src/assets/fonts/GalanoGrotesque-Black.otf"; sourceTree = "<group>"; };
+		3DB0251FECCC4616867667FF /* Galano Grotesque Black.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Black.woff"; path = "../src/assets/fonts/Galano Grotesque Black.woff"; sourceTree = "<group>"; };
+		3DEDA6C3EC0C469E841D4841 /* GalanoGrotesqueAlt-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Medium.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Medium.otf"; sourceTree = "<group>"; };
+		3ECC2CC7EE8547C1A82585D5 /* Galano Grotesque Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Medium.woff"; path = "../src/assets/fonts/Galano Grotesque Medium.woff"; sourceTree = "<group>"; };
+		3ED2375D773A4DF588D8BAFA /* Galano Grotesque Thin.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Thin.woff"; path = "../src/assets/fonts/Galano Grotesque Thin.woff"; sourceTree = "<group>"; };
+		3FC2D89DD72E4E49AD158B0E /* Galano Grotesque Alt Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Thin.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Thin.otf"; sourceTree = "<group>"; };
+		408B8C45427F4E0A9EED6711 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		418B7E91F0C3438CB3BDED88 /* Galano Grotesque Alt Black.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Black.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Black.woff"; sourceTree = "<group>"; };
+		435C1470BFC040209186BB1F /* Galano Grotesque Alt Semi Bold Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Semi Bold Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Semi Bold Italic.woff"; sourceTree = "<group>"; };
+		447BF3BA7D324D57AE435EAC /* Galano Grotesque Extra Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Extra Bold.otf"; sourceTree = "<group>"; };
+		448D4AFA518D4033972D0D2C /* designtnt-textures-stained-paper-set-2-1.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-1.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-1.JPG"; sourceTree = "<group>"; };
+		456F5FDDF48C46AE89017B76 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		46FB71546E0D4D839A841F18 /* Galano Grotesque.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque.otf"; path = "../src/assets/fonts/Galano Grotesque.otf"; sourceTree = "<group>"; };
+		47FB0CD5448743858B7DFE40 /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
+		4BF8EEDBBD304F4FB0FFD0C4 /* designtnt-textures-stained-paper-set-2-2.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-2.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-2.JPG"; sourceTree = "<group>"; };
+		4C5E752610F44D8DBF9D703E /* Galano Grotesque Light Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Light Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Light Italic.otf"; sourceTree = "<group>"; };
+		4DB2FB3ACCBA4956BCF342DC /* Galano Grotesque Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Light.otf"; path = "../src/assets/fonts/Galano Grotesque Light.otf"; sourceTree = "<group>"; };
+		4EF256C2E9CC4BAAACBDD5D6 /* Galano Grotesque Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Thin.otf"; path = "../src/assets/fonts/Galano Grotesque Thin.otf"; sourceTree = "<group>"; };
+		52BB1DD5A31A483CB50DF9B2 /* Digital-7.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Digital-7.ttf"; path = "../src/assets/fonts/Digital-7.ttf"; sourceTree = "<group>"; };
+		58F7B5392D5C44ECB4F6EA55 /* Galano Grotesque Extra Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Bold Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Extra Bold Italic.otf"; sourceTree = "<group>"; };
+		5A387141A28B4E58995C759A /* Galano Grotesque Alt DEMO Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt DEMO Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Alt DEMO Bold.woff"; sourceTree = "<group>"; };
+		5A3F289DC3564D2EBACDD94B /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiboldItalic.ttf"; path = "../src/assets/fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		5C23BE61E6B94C8FA96C20D8 /* GalanoGrotesqueAlt-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Bold.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Bold.otf"; sourceTree = "<group>"; };
+		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		5ED2CF3FDD0745F8AE8E9D2C /* designtnt-textures-stained-paper-set-2-8.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-8.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-8.JPG"; sourceTree = "<group>"; };
+		5FB6412E7DE4494FBA743ECF /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		60C94DA5E63645B993BE386F /* designtnt-textures-stained-paper-set-2-3.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-3.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-3.JPG"; sourceTree = "<group>"; };
+		61DC8978951D43D3A253AB87 /* designtnt-textures-stained-paper-set-2-5.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-5.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-5.JPG"; sourceTree = "<group>"; };
+		643D519B8A7F4FDBB1BD769A /* Galano Grotesque Alt Black Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Black Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Black Italic.woff"; sourceTree = "<group>"; };
+		663CDC81D3204E009AFBC231 /* GalanoGrotesqueDEMO-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueDEMO-Bold.otf"; path = "../src/assets/fonts/GalanoGrotesqueDEMO-Bold.otf"; sourceTree = "<group>"; };
+		66420F845ED1429893437E7D /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../src/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		6833CD1E3A06496A8EC29261 /* GalanoGrotesque-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-ExtraBoldItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		6A2C5A41624047F68D9DC33D /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6B00844C237B45529340DD9C /* Galano Grotesque Alt Semi Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Semi Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Semi Bold.woff"; sourceTree = "<group>"; };
+		6DEF54B6964B4BBCAB8E4309 /* GalanoGrotesque-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-MediumItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-MediumItalic.otf"; sourceTree = "<group>"; };
+		6E03DA6BE675472B9395815E /* Galano Grotesque Alt.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt.woff"; path = "../src/assets/fonts/Galano Grotesque Alt.woff"; sourceTree = "<group>"; };
+		6F1D4E1BC4CF46BDA8702E73 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		7130B5C4C8624E1FA87C872A /* GalanoGrotesque-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-BoldItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-BoldItalic.otf"; sourceTree = "<group>"; };
+		713B164CF53A400190697F81 /* Galano Grotesque Alt Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Bold.woff"; sourceTree = "<group>"; };
+		7161F6D7E7C44B5CBA41B8DC /* Digital-7 Mono Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Digital-7 Mono Italic.ttf"; path = "../src/assets/fonts/Digital-7 Mono Italic.ttf"; sourceTree = "<group>"; };
+		74283D3FC8D149878E638CEB /* Galano Grotesque Black Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Black Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Black Italic.woff"; sourceTree = "<group>"; };
+		74934813F03B41B4A2F9239F /* Galano Grotesque Alt Bold Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Bold Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Bold Italic.woff"; sourceTree = "<group>"; };
+		75399619A39A4811AE1E5DA6 /* Galano Grotesque Extra Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Light.otf"; path = "../src/assets/fonts/Galano Grotesque Extra Light.otf"; sourceTree = "<group>"; };
+		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		79B50A7D9B2C4DC9B80195BB /* Galano Grotesque Alt Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Bold Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Bold Italic.otf"; sourceTree = "<group>"; };
+		7A71078D4DC44761B44D2895 /* GalanoGrotesqueAlt-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-SemiBold.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-SemiBold.otf"; sourceTree = "<group>"; };
+		7AB2FFC6D2CB44CA88801265 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Semibold.ttf"; path = "../src/assets/fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		7C70BE4132C148BA9C8F318F /* Galano Grotesque Alt Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Bold.otf"; sourceTree = "<group>"; };
+		7D27266A8558437A9D6B6C93 /* Galano Grotesque Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Heavy.woff"; path = "../src/assets/fonts/Galano Grotesque Heavy.woff"; sourceTree = "<group>"; };
+		7FA0E9D3FB8E4158B23C5F4B /* Galano Grotesque Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Bold.woff"; sourceTree = "<group>"; };
+		8301534FD39A4FF291986AD6 /* Galano Grotesque Alt Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Italic.otf"; sourceTree = "<group>"; };
+		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		835687D840BA4607A48F65C6 /* GalanoGrotesqueAlt-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-ExtraBoldItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		85E2247F1F284598B4F36B25 /* Digital-7 Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Digital-7 Italic.ttf"; path = "../src/assets/fonts/Digital-7 Italic.ttf"; sourceTree = "<group>"; };
+		89481B3DBC1343BB88BD5983 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8BAF53DAAEC040E88DEDFF8E /* Galano Grotesque Semi Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Semi Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Semi Bold.woff"; sourceTree = "<group>"; };
+		8E7FF20957A149FFB0166CFF /* Galano Grotesque Bold Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Bold Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Bold Italic.woff"; sourceTree = "<group>"; };
+		8E924EB876EF427E839FDBB5 /* Galano Grotesque Medium Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Medium Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Medium Italic.otf"; sourceTree = "<group>"; };
+		8F2903FBBB1C40B8979DFEAA /* libRNSVG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = "libRNSVG-tvOS.a"; sourceTree = "<group>"; };
+		911491AD21EB4C74A48D1E95 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		96E68A8F15514125A6FAE2B2 /* Galano Grotesque.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque.woff"; path = "../src/assets/fonts/Galano Grotesque.woff"; sourceTree = "<group>"; };
+		96FDD7AEAB3D42819F51E4A3 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		9907608E42C148B1BB698C00 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		99771D19D0EB4D1291E4E169 /* digital-7 mono.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "digital-7 mono.ttf"; path = "../src/assets/fonts/digital-7 mono.ttf"; sourceTree = "<group>"; };
+		9A022796CFF6416BB791A537 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		9D3C6E60D1764313B27698B4 /* Galano Grotesque Medium Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Medium Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Medium Italic.woff"; sourceTree = "<group>"; };
+		9E87A45E4D6245E9AC8E3905 /* Galano Grotesque Alt Medium Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Medium Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Medium Italic.otf"; sourceTree = "<group>"; };
+		9F6E869CBA2E4C6F8D8CDFB1 /* Galano Grotesque Alt Extra Light Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Light Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Light Italic.otf"; sourceTree = "<group>"; };
+		A0C48FF10943462AAEFABB45 /* digital-7 mono italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "digital-7 mono italic.ttf"; path = "../src/assets/fonts/digital-7 mono italic.ttf"; sourceTree = "<group>"; };
+		A1E1C84E515B47309236926A /* Open Sans Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Open Sans Semibold.ttf"; path = "../src/assets/fonts/Open Sans Semibold.ttf"; sourceTree = "<group>"; };
+		A25F41817C264067B1014E52 /* GalanoGrotesque-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-ExtraLight.otf"; path = "../src/assets/fonts/GalanoGrotesque-ExtraLight.otf"; sourceTree = "<group>"; };
+		A35BD5883A894C61AEDC4916 /* GalanoGrotesque-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Heavy.otf"; path = "../src/assets/fonts/GalanoGrotesque-Heavy.otf"; sourceTree = "<group>"; };
+		A58CC6E7F17C4D8283220A74 /* Galano Grotesque Semi Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Semi Bold Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Semi Bold Italic.otf"; sourceTree = "<group>"; };
+		A783E9BDD39E49F0BDC113EC /* GalanoGrotesqueAlt-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-ExtraBold.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-ExtraBold.otf"; sourceTree = "<group>"; };
+		A962955CCE4541BD98B9B38B /* GalanoGrotesqueAlt-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Black.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Black.otf"; sourceTree = "<group>"; };
+		A9CFCA0B8E764B9A965F06F9 /* GalanoGrotesqueAlt-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Light.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Light.otf"; sourceTree = "<group>"; };
+		AA053B178DE048348830B793 /* Galano Grotesque Black Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Black Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Black Italic.otf"; sourceTree = "<group>"; };
+		AAC22D160E154A6EAF8C8502 /* Galano Grotesque Alt Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Heavy.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Heavy.otf"; sourceTree = "<group>"; };
+		AB41EB2B22774705ACCDDA33 /* OpenSans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSans.ttf; path = ../src/assets/fonts/OpenSans.ttf; sourceTree = "<group>"; };
+		AC65EE26F4804FA4804FC3AD /* Galano Grotesque Alt Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Medium.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Medium.otf"; sourceTree = "<group>"; };
+		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		AE3AC9FFC84447D197BFABC3 /* Galano Grotesque Alt Semi Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Semi Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Semi Bold.otf"; sourceTree = "<group>"; };
+		B00EFEE9DD29400FBA323A44 /* Galano Grotesque Extra Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Extra Bold.woff"; sourceTree = "<group>"; };
+		B10C73830C6D4ACC9A387327 /* GalanoGrotesque-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Medium.otf"; path = "../src/assets/fonts/GalanoGrotesque-Medium.otf"; sourceTree = "<group>"; };
+		B1712BAD0D3F4D05BB4C259B /* Galano Grotesque Alt Semi Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Semi Bold Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Semi Bold Italic.otf"; sourceTree = "<group>"; };
+		B2E880F5915F4FCB8B811F95 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		B3895179FB4D4012B5930D8C /* Open Sans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Open Sans.ttf"; path = "../src/assets/fonts/Open Sans.ttf"; sourceTree = "<group>"; };
+		B3D278E82E9E4F058768B9FD /* Galano Grotesque Alt Thin.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Thin.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Thin.woff"; sourceTree = "<group>"; };
+		B5DB7328FCD14E7A91A2DFFE /* Galano Grotesque Alt Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Italic.woff"; sourceTree = "<group>"; };
+		B6F63937C9994BB48C550FBA /* Galano Grotesque Alt Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Light.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Light.otf"; sourceTree = "<group>"; };
+		BD3B643ED9344D92818F0903 /* GalanoGrotesque-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-LightItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-LightItalic.otf"; sourceTree = "<group>"; };
+		BD929D663C5546618F43828C /* GalanoGrotesqueAlt-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-HeavyItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-HeavyItalic.otf"; sourceTree = "<group>"; };
+		BFBE3E9E7D964AA5BEBEAF40 /* Galano Grotesque Semi Bold Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Semi Bold Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Semi Bold Italic.woff"; sourceTree = "<group>"; };
+		C4A23B97F8A849259F911F86 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C530899AA3074832884AAB90 /* Galano Grotesque Alt Heavy Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Heavy Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Heavy Italic.woff"; sourceTree = "<group>"; };
+		C5CF56E65F2A4ADC9542B025 /* GalanoGrotesque-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Italic.otf"; path = "../src/assets/fonts/GalanoGrotesque-Italic.otf"; sourceTree = "<group>"; };
+		C6887FE9E16E437E8FF442F9 /* Galano Grotesque Alt Extra Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Bold Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Bold Italic.otf"; sourceTree = "<group>"; };
+		C761E5E24D3747F386F9D9F8 /* Digital-7 Mono.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Digital-7 Mono.ttf"; path = "../src/assets/fonts/Digital-7 Mono.ttf"; sourceTree = "<group>"; };
+		CAF4996932EE4FC192EA77CD /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		CCB2C6873FAB4CA08671D646 /* Galano Grotesque Alt Extra Bold Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Bold Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Bold Italic.woff"; sourceTree = "<group>"; };
+		CDD7148C7ABC41299E03CB32 /* Galano Grotesque Thin Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Thin Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Thin Italic.otf"; sourceTree = "<group>"; };
+		CF0795527FE2410F8C7B9FF7 /* Galano Grotesque Semi Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Semi Bold.otf"; path = "../src/assets/fonts/Galano Grotesque Semi Bold.otf"; sourceTree = "<group>"; };
+		D014B1477F7D40F69E02D7C6 /* digital-7.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "digital-7.ttf"; path = "../src/assets/fonts/digital-7.ttf"; sourceTree = "<group>"; };
+		D23C4ECB589E4906A269E24C /* GalanoGrotesqueAlt-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Italic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Italic.otf"; sourceTree = "<group>"; };
+		D2F5705F777249728E0CF875 /* Galano Grotesque Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Light.woff"; path = "../src/assets/fonts/Galano Grotesque Light.woff"; sourceTree = "<group>"; };
+		D4353685C2A547CEA9606B1C /* Galano Grotesque Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Italic.otf"; sourceTree = "<group>"; };
+		D5F0D33787CF4C8B85C4E928 /* GalanoGrotesque-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-SemiBoldItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		D60CF038492347A78C8C128F /* Galano Grotesque Extra Bold Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Bold Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Extra Bold Italic.woff"; sourceTree = "<group>"; };
+		D6C22C7C759C4CDA9D562F55 /* Galano Grotesque Alt Medium.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Medium.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Medium.woff"; sourceTree = "<group>"; };
+		DB32E07486774362BCCA469F /* GalanoGrotesqueAlt-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Regular.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Regular.otf"; sourceTree = "<group>"; };
+		DB5F3F0E2FFA4E2680B0504F /* Galano Grotesque Alt Thin Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Thin Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Thin Italic.woff"; sourceTree = "<group>"; };
+		DBC186FE32904D19AD262F5D /* libRNSVG.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSVG.a; sourceTree = "<group>"; };
+		DF2241BFCDD442068C0722C5 /* Galano Grotesque Alt Black Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Black Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Black Italic.otf"; sourceTree = "<group>"; };
+		DF74767F55D54BB88E8D22F3 /* Galano Grotesque Bold Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Bold Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Bold Italic.otf"; sourceTree = "<group>"; };
+		DF797AB1CB5D49D0A6178859 /* digital-7 italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "digital-7 italic.ttf"; path = "../src/assets/fonts/digital-7 italic.ttf"; sourceTree = "<group>"; };
+		E1CD72EF8ACE401DBF3C38F5 /* Galano Grotesque Alt Heavy Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Heavy Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Heavy Italic.otf"; sourceTree = "<group>"; };
+		E212637CA5254D80A4720F61 /* GalanoGrotesque-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Bold.otf"; path = "../src/assets/fonts/GalanoGrotesque-Bold.otf"; sourceTree = "<group>"; };
+		E3D6F7A962B145A4826A6007 /* Galano Grotesque Alt Extra Bold.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Bold.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Bold.woff"; sourceTree = "<group>"; };
+		E404AF83379F4877A133C5E2 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E415BB4B326F46678C421B88 /* Galano Grotesque Alt Heavy.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Heavy.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Heavy.woff"; sourceTree = "<group>"; };
+		E41844BF50E64903A3AEA83D /* libRNMeasureText.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNMeasureText.a; sourceTree = "<group>"; };
+		E54F555E94D44AA6A60E9480 /* GalanoGrotesqueAlt-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-BlackItalic.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-BlackItalic.otf"; sourceTree = "<group>"; };
+		E79690A06614425DAA745382 /* Galano Grotesque Alt Extra Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Light.otf"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Light.otf"; sourceTree = "<group>"; };
+		E804AE07E59343B5B460FC11 /* RNSVG.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSVG.xcodeproj; path = "../node_modules/react-native-svg/ios/RNSVG.xcodeproj"; sourceTree = "<group>"; };
+		E8E00BD68B964CC6955EC1A3 /* Galano Grotesque Alt Light Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Light Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Light Italic.woff"; sourceTree = "<group>"; };
+		E9C5B540378F4085BE5189C8 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../src/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		EBA03314F8F14AAF8A31096B /* GalanoGrotesque-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Thin.otf"; path = "../src/assets/fonts/GalanoGrotesque-Thin.otf"; sourceTree = "<group>"; };
+		EDCA3D46DE3E4147AEE44036 /* designtnt-textures-stained-paper-set-2-4.JPG */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "designtnt-textures-stained-paper-set-2-4.JPG"; path = "../src/assets/fonts/designtnt-textures-stained-paper-set-2-4.JPG"; sourceTree = "<group>"; };
+		EE70FE6647DB476AA698D04B /* Galano Grotesque Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Italic.woff"; sourceTree = "<group>"; };
+		EF45950712BD4E5EAA3FB0C7 /* Galano Grotesque Extra Light Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Extra Light Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Extra Light Italic.otf"; sourceTree = "<group>"; };
+		F2F27A41C0AD470DA5B4A4A2 /* Galano Grotesque Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Heavy.otf"; path = "../src/assets/fonts/Galano Grotesque Heavy.otf"; sourceTree = "<group>"; };
+		F356DFBF9DE64870B37227AD /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		F4BE408A8E2F4DED8248EC50 /* GalanoGrotesque-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-Regular.otf"; path = "../src/assets/fonts/GalanoGrotesque-Regular.otf"; sourceTree = "<group>"; };
+		F55E0B3DC7864B8B82DF9329 /* GalanoGrotesque-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-ThinItalic.otf"; path = "../src/assets/fonts/GalanoGrotesque-ThinItalic.otf"; sourceTree = "<group>"; };
+		F6F303E1B6EF4514AB32C932 /* Galano Grotesque Light Italic.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Light Italic.woff"; path = "../src/assets/fonts/Galano Grotesque Light Italic.woff"; sourceTree = "<group>"; };
+		F739FD8A70784B3E85A5F46B /* GalanoGrotesqueAlt-ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-ExtraLight.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-ExtraLight.otf"; sourceTree = "<group>"; };
+		F79BAA4B02084EA29D6626F7 /* GalanoGrotesque-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesque-SemiBold.otf"; path = "../src/assets/fonts/GalanoGrotesque-SemiBold.otf"; sourceTree = "<group>"; };
+		F7CDDE937CD040809EBDBDD3 /* GalanoGrotesqueAlt-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GalanoGrotesqueAlt-Thin.otf"; path = "../src/assets/fonts/GalanoGrotesqueAlt-Thin.otf"; sourceTree = "<group>"; };
+		FA06C9B786D74CED80C0FB13 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		FAACDEA9224442B2BDF6D25A /* Galano Grotesque Alt Extra Light.woff */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Alt Extra Light.woff"; path = "../src/assets/fonts/Galano Grotesque Alt Extra Light.woff"; sourceTree = "<group>"; };
+		FBFB61D9F7E047A39AA85AB6 /* Galano Grotesque DEMO Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque DEMO Bold.otf"; path = "../src/assets/fonts/Galano Grotesque DEMO Bold.otf"; sourceTree = "<group>"; };
+		FE88056C9BD6420FB7F54BB9 /* Galano Grotesque Heavy Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Galano Grotesque Heavy Italic.otf"; path = "../src/assets/fonts/Galano Grotesque Heavy Italic.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				146834051AC3E58100842450 /* libReact.a in Frameworks */,
+				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
+				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
+				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
+				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
+				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
+				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				49DEB4BDC70A4B79A65370F5 /* libRNVectorIcons.a in Frameworks */,
+				FC50B619DA2347A9BDC563A2 /* libRNSVG.a in Frameworks */,
+				5B8EFC31753F4E94A8B66CC4 /* libRNMeasureText.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */,
+				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
+				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
+				2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */,
+				2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */,
+				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
+				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
+				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
+				53E019AD03D948779B9C8D83 /* libRNSVG-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C302A81ABCB8CE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302B61ABCB90400DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302BC1ABCB91800DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302C01ABCB91800DB3ED1 /* libRCTImage.a */,
+				3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302D41ABCB9D200DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */,
+				3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C302E01ABCB9EE00DB3ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00E356EF1AD99517003FC87E /* MedicalAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* MedicalAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = MedicalAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		139105B71AF99BAD00B5F7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139105C11AF99BAD00B5F7CC /* libRCTSettings.a */,
+				3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139FDEE71B06529A00C62182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
+				3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */,
+				2D16E6841FA4F8DC00B85C8A /* libfishhook.a */,
+				2D16E6861FA4F8DC00B85C8A /* libfishhook-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* MedicalApp */ = {
+			isa = PBXGroup;
+			children = (
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = MedicalApp;
+			sourceTree = "<group>";
+		};
+		146834001AC3E56700842450 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146834041AC3E56700842450 /* libReact.a */,
+				3DAD3EA31DF850E9000B6D8A /* libReact.a */,
+				3DAD3EA51DF850E9000B6D8A /* libyoga.a */,
+				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
+				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
+				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
+				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
+				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
+				2DF0FFDF2056DD460020B375 /* libjsinspector.a */,
+				2DF0FFE12056DD460020B375 /* libjsinspector-tvOS.a */,
+				2DF0FFE32056DD460020B375 /* libthird-party.a */,
+				2DF0FFE52056DD460020B375 /* libthird-party.a */,
+				2DF0FFE72056DD460020B375 /* libdouble-conversion.a */,
+				2DF0FFE92056DD460020B375 /* libdouble-conversion.a */,
+				2DF0FFEB2056DD460020B375 /* libprivatedata.a */,
+				2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD4C50E0E5547D29E707138 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CAF4996932EE4FC192EA77CD /* Entypo.ttf */,
+				15C2D6F89B144704B38BE3B8 /* EvilIcons.ttf */,
+				076F30A809B945238F90C92A /* Feather.ttf */,
+				E404AF83379F4877A133C5E2 /* FontAwesome.ttf */,
+				9907608E42C148B1BB698C00 /* FontAwesome5_Brands.ttf */,
+				2105294AE5FB429F9774EF66 /* FontAwesome5_Regular.ttf */,
+				408B8C45427F4E0A9EED6711 /* FontAwesome5_Solid.ttf */,
+				5FB6412E7DE4494FBA743ECF /* Foundation.ttf */,
+				B2E880F5915F4FCB8B811F95 /* Ionicons.ttf */,
+				C4A23B97F8A849259F911F86 /* MaterialCommunityIcons.ttf */,
+				96FDD7AEAB3D42819F51E4A3 /* MaterialIcons.ttf */,
+				26B0A8DCE65641289B8F8BD1 /* Octicons.ttf */,
+				FA06C9B786D74CED80C0FB13 /* SimpleLineIcons.ttf */,
+				F356DFBF9DE64870B37227AD /* Zocial.ttf */,
+				4EF256C2E9CC4BAAACBDD5D6 /* Galano Grotesque Thin.otf */,
+				448D4AFA518D4033972D0D2C /* designtnt-textures-stained-paper-set-2-1.JPG */,
+				4BF8EEDBBD304F4FB0FFD0C4 /* designtnt-textures-stained-paper-set-2-2.JPG */,
+				60C94DA5E63645B993BE386F /* designtnt-textures-stained-paper-set-2-3.JPG */,
+				EDCA3D46DE3E4147AEE44036 /* designtnt-textures-stained-paper-set-2-4.JPG */,
+				61DC8978951D43D3A253AB87 /* designtnt-textures-stained-paper-set-2-5.JPG */,
+				327A1EB2A6134A88BC2CAAB5 /* designtnt-textures-stained-paper-set-2-6.JPG */,
+				1C48B450F7AA46E294BDF511 /* designtnt-textures-stained-paper-set-2-7.JPG */,
+				5ED2CF3FDD0745F8AE8E9D2C /* designtnt-textures-stained-paper-set-2-8.JPG */,
+				08F26CDBB6DA4340BF389233 /* designtnt-textures-stained-paper-set-2-9.JPG */,
+				DF2241BFCDD442068C0722C5 /* Galano Grotesque Alt Black Italic.otf */,
+				643D519B8A7F4FDBB1BD769A /* Galano Grotesque Alt Black Italic.woff */,
+				3251F0F0A4384961BEBF249F /* Galano Grotesque Alt Black.otf */,
+				418B7E91F0C3438CB3BDED88 /* Galano Grotesque Alt Black.woff */,
+				79B50A7D9B2C4DC9B80195BB /* Galano Grotesque Alt Bold Italic.otf */,
+				74934813F03B41B4A2F9239F /* Galano Grotesque Alt Bold Italic.woff */,
+				7C70BE4132C148BA9C8F318F /* Galano Grotesque Alt Bold.otf */,
+				713B164CF53A400190697F81 /* Galano Grotesque Alt Bold.woff */,
+				0EDA47E25FD34305A3DCDC26 /* Galano Grotesque Alt DEMO Bold.otf */,
+				5A387141A28B4E58995C759A /* Galano Grotesque Alt DEMO Bold.woff */,
+				C6887FE9E16E437E8FF442F9 /* Galano Grotesque Alt Extra Bold Italic.otf */,
+				CCB2C6873FAB4CA08671D646 /* Galano Grotesque Alt Extra Bold Italic.woff */,
+				15FC3E088AEB4E3D8F3742B2 /* Galano Grotesque Alt Extra Bold.otf */,
+				E3D6F7A962B145A4826A6007 /* Galano Grotesque Alt Extra Bold.woff */,
+				9F6E869CBA2E4C6F8D8CDFB1 /* Galano Grotesque Alt Extra Light Italic.otf */,
+				13480E62485A470BA99B70A7 /* Galano Grotesque Alt Extra Light Italic.woff */,
+				E79690A06614425DAA745382 /* Galano Grotesque Alt Extra Light.otf */,
+				FAACDEA9224442B2BDF6D25A /* Galano Grotesque Alt Extra Light.woff */,
+				E1CD72EF8ACE401DBF3C38F5 /* Galano Grotesque Alt Heavy Italic.otf */,
+				C530899AA3074832884AAB90 /* Galano Grotesque Alt Heavy Italic.woff */,
+				AAC22D160E154A6EAF8C8502 /* Galano Grotesque Alt Heavy.otf */,
+				E415BB4B326F46678C421B88 /* Galano Grotesque Alt Heavy.woff */,
+				8301534FD39A4FF291986AD6 /* Galano Grotesque Alt Italic.otf */,
+				B5DB7328FCD14E7A91A2DFFE /* Galano Grotesque Alt Italic.woff */,
+				31EB72ACA5C24870A6917C84 /* Galano Grotesque Alt Light Italic.otf */,
+				E8E00BD68B964CC6955EC1A3 /* Galano Grotesque Alt Light Italic.woff */,
+				B6F63937C9994BB48C550FBA /* Galano Grotesque Alt Light.otf */,
+				3D34FF92BCF84C2C9F5042D7 /* Galano Grotesque Alt Light.woff */,
+				9E87A45E4D6245E9AC8E3905 /* Galano Grotesque Alt Medium Italic.otf */,
+				3789CE93B5094A9B9003BFC2 /* Galano Grotesque Alt Medium Italic.woff */,
+				AC65EE26F4804FA4804FC3AD /* Galano Grotesque Alt Medium.otf */,
+				D6C22C7C759C4CDA9D562F55 /* Galano Grotesque Alt Medium.woff */,
+				B1712BAD0D3F4D05BB4C259B /* Galano Grotesque Alt Semi Bold Italic.otf */,
+				435C1470BFC040209186BB1F /* Galano Grotesque Alt Semi Bold Italic.woff */,
+				AE3AC9FFC84447D197BFABC3 /* Galano Grotesque Alt Semi Bold.otf */,
+				6B00844C237B45529340DD9C /* Galano Grotesque Alt Semi Bold.woff */,
+				38EA2CC4B5354EFC87CF2E07 /* Galano Grotesque Alt Thin Italic.otf */,
+				DB5F3F0E2FFA4E2680B0504F /* Galano Grotesque Alt Thin Italic.woff */,
+				3FC2D89DD72E4E49AD158B0E /* Galano Grotesque Alt Thin.otf */,
+				B3D278E82E9E4F058768B9FD /* Galano Grotesque Alt Thin.woff */,
+				0364E774D890429F8D701329 /* Galano Grotesque Alt.otf */,
+				6E03DA6BE675472B9395815E /* Galano Grotesque Alt.woff */,
+				AA053B178DE048348830B793 /* Galano Grotesque Black Italic.otf */,
+				74283D3FC8D149878E638CEB /* Galano Grotesque Black Italic.woff */,
+				047594F7A1FA4810A1E4350F /* Galano Grotesque Black.otf */,
+				3DB0251FECCC4616867667FF /* Galano Grotesque Black.woff */,
+				DF74767F55D54BB88E8D22F3 /* Galano Grotesque Bold Italic.otf */,
+				8E7FF20957A149FFB0166CFF /* Galano Grotesque Bold Italic.woff */,
+				044A018A9DFD42689B5F4CD6 /* Galano Grotesque Bold.otf */,
+				7FA0E9D3FB8E4158B23C5F4B /* Galano Grotesque Bold.woff */,
+				FBFB61D9F7E047A39AA85AB6 /* Galano Grotesque DEMO Bold.otf */,
+				30C708D90AFE460D9B8EA7D7 /* Galano Grotesque DEMO Bold.woff */,
+				58F7B5392D5C44ECB4F6EA55 /* Galano Grotesque Extra Bold Italic.otf */,
+				D60CF038492347A78C8C128F /* Galano Grotesque Extra Bold Italic.woff */,
+				447BF3BA7D324D57AE435EAC /* Galano Grotesque Extra Bold.otf */,
+				B00EFEE9DD29400FBA323A44 /* Galano Grotesque Extra Bold.woff */,
+				EF45950712BD4E5EAA3FB0C7 /* Galano Grotesque Extra Light Italic.otf */,
+				16D99E348C274BE0806F438C /* Galano Grotesque Extra Light Italic.woff */,
+				75399619A39A4811AE1E5DA6 /* Galano Grotesque Extra Light.otf */,
+				1344067022D34217B1D1C8DA /* Galano Grotesque Extra Light.woff */,
+				FE88056C9BD6420FB7F54BB9 /* Galano Grotesque Heavy Italic.otf */,
+				11DDA1625F92447AA9DCBDA3 /* Galano Grotesque Heavy Italic.woff */,
+				F2F27A41C0AD470DA5B4A4A2 /* Galano Grotesque Heavy.otf */,
+				7D27266A8558437A9D6B6C93 /* Galano Grotesque Heavy.woff */,
+				D4353685C2A547CEA9606B1C /* Galano Grotesque Italic.otf */,
+				EE70FE6647DB476AA698D04B /* Galano Grotesque Italic.woff */,
+				4C5E752610F44D8DBF9D703E /* Galano Grotesque Light Italic.otf */,
+				F6F303E1B6EF4514AB32C932 /* Galano Grotesque Light Italic.woff */,
+				4DB2FB3ACCBA4956BCF342DC /* Galano Grotesque Light.otf */,
+				D2F5705F777249728E0CF875 /* Galano Grotesque Light.woff */,
+				8E924EB876EF427E839FDBB5 /* Galano Grotesque Medium Italic.otf */,
+				9D3C6E60D1764313B27698B4 /* Galano Grotesque Medium Italic.woff */,
+				1ADDC73C52914B0DAD919CF7 /* Galano Grotesque Medium.otf */,
+				3ECC2CC7EE8547C1A82585D5 /* Galano Grotesque Medium.woff */,
+				A58CC6E7F17C4D8283220A74 /* Galano Grotesque Semi Bold Italic.otf */,
+				BFBE3E9E7D964AA5BEBEAF40 /* Galano Grotesque Semi Bold Italic.woff */,
+				CF0795527FE2410F8C7B9FF7 /* Galano Grotesque Semi Bold.otf */,
+				8BAF53DAAEC040E88DEDFF8E /* Galano Grotesque Semi Bold.woff */,
+				CDD7148C7ABC41299E03CB32 /* Galano Grotesque Thin Italic.otf */,
+				0827B04E6A6A40818AECB36B /* Galano Grotesque Thin Italic.woff */,
+				3ED2375D773A4DF588D8BAFA /* Galano Grotesque Thin.woff */,
+				46FB71546E0D4D839A841F18 /* Galano Grotesque.otf */,
+				96E68A8F15514125A6FAE2B2 /* Galano Grotesque.woff */,
+				DF797AB1CB5D49D0A6178859 /* digital-7 italic.ttf */,
+				A0C48FF10943462AAEFABB45 /* digital-7 mono italic.ttf */,
+				99771D19D0EB4D1291E4E169 /* digital-7 mono.ttf */,
+				D014B1477F7D40F69E02D7C6 /* digital-7.ttf */,
+				9A022796CFF6416BB791A537 /* OpenSans-Bold.ttf */,
+				911491AD21EB4C74A48D1E95 /* OpenSans-BoldItalic.ttf */,
+				89481B3DBC1343BB88BD5983 /* OpenSans-ExtraBold.ttf */,
+				456F5FDDF48C46AE89017B76 /* OpenSans-ExtraBoldItalic.ttf */,
+				66420F845ED1429893437E7D /* OpenSans-Italic.ttf */,
+				6A2C5A41624047F68D9DC33D /* OpenSans-Light.ttf */,
+				E9C5B540378F4085BE5189C8 /* OpenSans-LightItalic.ttf */,
+				6F1D4E1BC4CF46BDA8702E73 /* OpenSans-Regular.ttf */,
+				7AB2FFC6D2CB44CA88801265 /* OpenSans-Semibold.ttf */,
+				5A3F289DC3564D2EBACDD94B /* OpenSans-SemiboldItalic.ttf */,
+				AB41EB2B22774705ACCDDA33 /* OpenSans.ttf */,
+				85E2247F1F284598B4F36B25 /* Digital-7 Italic.ttf */,
+				7161F6D7E7C44B5CBA41B8DC /* Digital-7 Mono Italic.ttf */,
+				C761E5E24D3747F386F9D9F8 /* Digital-7 Mono.ttf */,
+				52BB1DD5A31A483CB50DF9B2 /* Digital-7.ttf */,
+				3D4C22AEE24E469389F89F22 /* GalanoGrotesque-Black.otf */,
+				3676165E407E4864A3AC2B31 /* GalanoGrotesque-BlackItalic.otf */,
+				E212637CA5254D80A4720F61 /* GalanoGrotesque-Bold.otf */,
+				7130B5C4C8624E1FA87C872A /* GalanoGrotesque-BoldItalic.otf */,
+				1FA4919E6D2343A5BCB16C4E /* GalanoGrotesque-ExtraBold.otf */,
+				6833CD1E3A06496A8EC29261 /* GalanoGrotesque-ExtraBoldItalic.otf */,
+				A25F41817C264067B1014E52 /* GalanoGrotesque-ExtraLight.otf */,
+				12ED4062859D4FA1B1077C71 /* GalanoGrotesque-ExtraLightItalic.otf */,
+				A35BD5883A894C61AEDC4916 /* GalanoGrotesque-Heavy.otf */,
+				189C74A7DC9940218EFEF041 /* GalanoGrotesque-HeavyItalic.otf */,
+				C5CF56E65F2A4ADC9542B025 /* GalanoGrotesque-Italic.otf */,
+				1AEEABC89E2C4450B26769D1 /* GalanoGrotesque-Light.otf */,
+				BD3B643ED9344D92818F0903 /* GalanoGrotesque-LightItalic.otf */,
+				B10C73830C6D4ACC9A387327 /* GalanoGrotesque-Medium.otf */,
+				6DEF54B6964B4BBCAB8E4309 /* GalanoGrotesque-MediumItalic.otf */,
+				F4BE408A8E2F4DED8248EC50 /* GalanoGrotesque-Regular.otf */,
+				F79BAA4B02084EA29D6626F7 /* GalanoGrotesque-SemiBold.otf */,
+				D5F0D33787CF4C8B85C4E928 /* GalanoGrotesque-SemiBoldItalic.otf */,
+				EBA03314F8F14AAF8A31096B /* GalanoGrotesque-Thin.otf */,
+				F55E0B3DC7864B8B82DF9329 /* GalanoGrotesque-ThinItalic.otf */,
+				A962955CCE4541BD98B9B38B /* GalanoGrotesqueAlt-Black.otf */,
+				E54F555E94D44AA6A60E9480 /* GalanoGrotesqueAlt-BlackItalic.otf */,
+				5C23BE61E6B94C8FA96C20D8 /* GalanoGrotesqueAlt-Bold.otf */,
+				072EF2100812497E8577792A /* GalanoGrotesqueAlt-BoldItalic.otf */,
+				A783E9BDD39E49F0BDC113EC /* GalanoGrotesqueAlt-ExtraBold.otf */,
+				835687D840BA4607A48F65C6 /* GalanoGrotesqueAlt-ExtraBoldItalic.otf */,
+				F739FD8A70784B3E85A5F46B /* GalanoGrotesqueAlt-ExtraLight.otf */,
+				0D985EBCBE6843DDB86EB35D /* GalanoGrotesqueAlt-ExtraLightItalic.otf */,
+				14AD648E293A42B88AF894FB /* GalanoGrotesqueAlt-Heavy.otf */,
+				BD929D663C5546618F43828C /* GalanoGrotesqueAlt-HeavyItalic.otf */,
+				D23C4ECB589E4906A269E24C /* GalanoGrotesqueAlt-Italic.otf */,
+				A9CFCA0B8E764B9A965F06F9 /* GalanoGrotesqueAlt-Light.otf */,
+				1044C09DDB094C168CEBF6C0 /* GalanoGrotesqueAlt-LightItalic.otf */,
+				3DEDA6C3EC0C469E841D4841 /* GalanoGrotesqueAlt-Medium.otf */,
+				13F2DD6195B44F17884A127F /* GalanoGrotesqueAlt-MediumItalic.otf */,
+				DB32E07486774362BCCA469F /* GalanoGrotesqueAlt-Regular.otf */,
+				7A71078D4DC44761B44D2895 /* GalanoGrotesqueAlt-SemiBold.otf */,
+				0D78A2A03934467394256A40 /* GalanoGrotesqueAlt-SemiBoldItalic.otf */,
+				F7CDDE937CD040809EBDBDD3 /* GalanoGrotesqueAlt-Thin.otf */,
+				1D1837C1D8B846A38D1C605C /* GalanoGrotesqueAlt-ThinItalic.otf */,
+				05A8FF8230A3497BA2135789 /* GalanoGrotesqueAltDEMO-Bold.otf */,
+				663CDC81D3204E009AFBC231 /* GalanoGrotesqueDEMO-Bold.otf */,
+				367241B077C94D609456B05C /* Open Sans Extrabold.ttf */,
+				A1E1C84E515B47309236926A /* Open Sans Semibold.ttf */,
+				B3895179FB4D4012B5930D8C /* Open Sans.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */,
+				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78C398B11ACF4ADC00677621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78C398B91ACF4ADC00677621 /* libRCTLinking.a */,
+				3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
+				146833FF1AC3E56700842450 /* React.xcodeproj */,
+				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
+				ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */,
+				00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */,
+				00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */,
+				78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */,
+				00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */,
+				139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */,
+				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
+				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
+				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				1B5F2D0F38A6414F8A8BFD50 /* RNVectorIcons.xcodeproj */,
+				E804AE07E59343B5B460FC11 /* RNSVG.xcodeproj */,
+				17EC570E8CC4457C9AF10F85 /* RNMeasureText.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		832341B11AAA6A8300B99B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832341B51AAA6A8300B99B32 /* libRCTText.a */,
+				3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* MedicalApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* MedicalAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				1BD4C50E0E5547D29E707138 /* Resources */,
+				D36B4D4821275C6A0018EC9A /* Recovered References */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* MedicalApp.app */,
+				00E356EE1AD99517003FC87E /* MedicalAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* MedicalApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* MedicalApp-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBDB9201DFEBF0600ED6528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
+				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36B4D4821275C6A0018EC9A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				47FB0CD5448743858B7DFE40 /* libRNVectorIcons.a */,
+				DBC186FE32904D19AD262F5D /* libRNSVG.a */,
+				E41844BF50E64903A3AEA83D /* libRNMeasureText.a */,
+				8F2903FBBB1C40B8979DFEAA /* libRNSVG-tvOS.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		D36B4D6E21275C700018EC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36B4D7F21275C710018EC9A /* libRNVectorIcons.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36B4D7021275C700018EC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36B4D7A21275C710018EC9A /* libRNSVG.a */,
+				D36B4D7C21275C710018EC9A /* libRNSVG-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D36B4D7221275C700018EC9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D36B4D7621275C710018EC9A /* libRNMeasureText.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* MedicalAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MedicalAppTests" */;
+			buildPhases = (
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = MedicalAppTests;
+			productName = MedicalAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* MedicalAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* MedicalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MedicalApp" */;
+			buildPhases = (
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalApp;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* MedicalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* MedicalApp-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MedicalApp-tvOS" */;
+			buildPhases = (
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MedicalApp-tvOS";
+			productName = "MedicalApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* MedicalApp-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* MedicalApp-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MedicalApp-tvOSTests" */;
+			buildPhases = (
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "MedicalApp-tvOSTests";
+			productName = "MedicalApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* MedicalApp-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MedicalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
+					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
+				},
+				{
+					ProductGroup = 5E91572E1DD0AC6500FF2AA8 /* Products */;
+					ProjectRef = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
+				},
+				{
+					ProductGroup = ADBDB9201DFEBF0600ED6528 /* Products */;
+					ProjectRef = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302B61ABCB90400DB3ED1 /* Products */;
+					ProjectRef = 00C302B51ABCB90400DB3ED1 /* RCTGeolocation.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302BC1ABCB91800DB3ED1 /* Products */;
+					ProjectRef = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
+				},
+				{
+					ProductGroup = 78C398B11ACF4ADC00677621 /* Products */;
+					ProjectRef = 78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
+					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = 139105B71AF99BAD00B5F7CC /* Products */;
+					ProjectRef = 139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */;
+				},
+				{
+					ProductGroup = 832341B11AAA6A8300B99B32 /* Products */;
+					ProjectRef = 832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */;
+				},
+				{
+					ProductGroup = 00C302E01ABCB9EE00DB3ED1 /* Products */;
+					ProjectRef = 00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */;
+				},
+				{
+					ProductGroup = 139FDEE71B06529A00C62182 /* Products */;
+					ProjectRef = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+				},
+				{
+					ProductGroup = 146834001AC3E56700842450 /* Products */;
+					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = D36B4D7221275C700018EC9A /* Products */;
+					ProjectRef = 17EC570E8CC4457C9AF10F85 /* RNMeasureText.xcodeproj */;
+				},
+				{
+					ProductGroup = D36B4D7021275C700018EC9A /* Products */;
+					ProjectRef = E804AE07E59343B5B460FC11 /* RNSVG.xcodeproj */;
+				},
+				{
+					ProductGroup = D36B4D6E21275C700018EC9A /* Products */;
+					ProjectRef = 1B5F2D0F38A6414F8A8BFD50 /* RNVectorIcons.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* MedicalApp */,
+				00E356ED1AD99517003FC87E /* MedicalAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* MedicalApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* MedicalApp-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTActionSheet.a;
+			remoteRef = 00C302AB1ABCB8CE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTGeolocation.a;
+			remoteRef = 00C302B91ABCB90400DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302C01ABCB91800DB3ED1 /* libRCTImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTImage.a;
+			remoteRef = 00C302BF1ABCB91800DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTNetwork.a;
+			remoteRef = 00C302DB1ABCB9D200DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTVibration.a;
+			remoteRef = 00C302E31ABCB9EE00DB3ED1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139105C11AF99BAD00B5F7CC /* libRCTSettings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTSettings.a;
+			remoteRef = 139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		139FDEF41B06529B00C62182 /* libRCTWebSocket.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTWebSocket.a;
+			remoteRef = 139FDEF31B06529B00C62182 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		146834041AC3E56700842450 /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTBlob-tvOS.a";
+			remoteRef = 2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D16E6841FA4F8DC00B85C8A /* libfishhook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfishhook.a;
+			remoteRef = 2D16E6831FA4F8DC00B85C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D16E6861FA4F8DC00B85C8A /* libfishhook-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfishhook-tvOS.a";
+			remoteRef = 2D16E6851FA4F8DC00B85C8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFDF2056DD460020B375 /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = 2DF0FFDE2056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFE12056DD460020B375 /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = 2DF0FFE02056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFE32056DD460020B375 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 2DF0FFE22056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFE52056DD460020B375 /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = 2DF0FFE42056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFE72056DD460020B375 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 2DF0FFE62056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFE92056DD460020B375 /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = 2DF0FFE82056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFEB2056DD460020B375 /* libprivatedata.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprivatedata.a;
+			remoteRef = 2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprivatedata-tvOS.a";
+			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTImage-tvOS.a";
+			remoteRef = 3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTLinking-tvOS.a";
+			remoteRef = 3DAD3E871DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTNetwork-tvOS.a";
+			remoteRef = 3DAD3E8B1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E901DF850E9000B6D8A /* libRCTSettings-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTSettings-tvOS.a";
+			remoteRef = 3DAD3E8F1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTText-tvOS.a";
+			remoteRef = 3DAD3E931DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTWebSocket-tvOS.a";
+			remoteRef = 3DAD3E981DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA31DF850E9000B6D8A /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = 3DAD3EA21DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA51DF850E9000B6D8A /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 3DAD3EA41DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA71DF850E9000B6D8A /* libyoga.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libyoga.a;
+			remoteRef = 3DAD3EA61DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 3DAD3EA81DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcxxreact.a;
+			remoteRef = 3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjschelpers.a;
+			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTAnimation.a;
+			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTLinking.a;
+			remoteRef = 78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		832341B51AAA6A8300B99B32 /* libRCTText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTText.a;
+			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTBlob.a;
+			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D36B4D7621275C710018EC9A /* libRNMeasureText.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNMeasureText.a;
+			remoteRef = D36B4D7521275C710018EC9A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D36B4D7A21275C710018EC9A /* libRNSVG.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSVG.a;
+			remoteRef = D36B4D7921275C710018EC9A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D36B4D7C21275C710018EC9A /* libRNSVG-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNSVG-tvOS.a";
+			remoteRef = D36B4D7B21275C710018EC9A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D36B4D7F21275C710018EC9A /* libRNVectorIcons.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNVectorIcons.a;
+			remoteRef = D36B4D7E21275C710018EC9A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				EAAB0D6347484217AB4ED8BB /* Entypo.ttf in Resources */,
+				2E3C12F2645F41CFB77989DB /* EvilIcons.ttf in Resources */,
+				B5A18FD0C663491E804B3A7B /* Feather.ttf in Resources */,
+				26107DB782624A9ABAB3779E /* FontAwesome.ttf in Resources */,
+				D8015D6D763F4B418B7E2D39 /* FontAwesome5_Brands.ttf in Resources */,
+				2DDD9ECCEB424C3DA160735D /* FontAwesome5_Regular.ttf in Resources */,
+				6A684B542D40406DA62D77C7 /* FontAwesome5_Solid.ttf in Resources */,
+				35B5B50936F34FC48589C058 /* Foundation.ttf in Resources */,
+				2452A7AEF34643578ECF6804 /* Ionicons.ttf in Resources */,
+				10C4EA302DEE4B09ACB97271 /* MaterialCommunityIcons.ttf in Resources */,
+				6246489427C54647B518209C /* MaterialIcons.ttf in Resources */,
+				D6D24AF7521E402EADDF9701 /* Octicons.ttf in Resources */,
+				86C8CE3D18FB48EE853EDB78 /* SimpleLineIcons.ttf in Resources */,
+				D1EB8BEF9F5640EAA5D7738F /* Zocial.ttf in Resources */,
+				681A181F658B4AA3951829C1 /* Galano Grotesque Thin.otf in Resources */,
+				3C8115AC7BA14680AADAD40B /* designtnt-textures-stained-paper-set-2-1.JPG in Resources */,
+				6A43896848D1458795F54CA4 /* designtnt-textures-stained-paper-set-2-2.JPG in Resources */,
+				60DE67E0F81D46B68FF05CA9 /* designtnt-textures-stained-paper-set-2-3.JPG in Resources */,
+				F39EE4F6954D40678D51D5A9 /* designtnt-textures-stained-paper-set-2-4.JPG in Resources */,
+				ADBE40CCEF2B40A4AC86374B /* designtnt-textures-stained-paper-set-2-5.JPG in Resources */,
+				28E9D03237F2404A94F252FA /* designtnt-textures-stained-paper-set-2-6.JPG in Resources */,
+				E456AE5329F248F0A17ED10F /* designtnt-textures-stained-paper-set-2-7.JPG in Resources */,
+				560E87C9CC734199A5857CAD /* designtnt-textures-stained-paper-set-2-8.JPG in Resources */,
+				AFFE2188653E47C69C237A30 /* designtnt-textures-stained-paper-set-2-9.JPG in Resources */,
+				08AC7E4042F5438DAFFD76B0 /* Galano Grotesque Alt Black Italic.otf in Resources */,
+				B5DCF1F240964117AE3B5BBD /* Galano Grotesque Alt Black Italic.woff in Resources */,
+				3CC855E542F44D918BE55097 /* Galano Grotesque Alt Black.otf in Resources */,
+				FA1CADB3C71443419D0BF8E7 /* Galano Grotesque Alt Black.woff in Resources */,
+				5B4CC872B340443D9EC0B1F7 /* Galano Grotesque Alt Bold Italic.otf in Resources */,
+				F144F008DF6C44C1B2B2A1C6 /* Galano Grotesque Alt Bold Italic.woff in Resources */,
+				58D80C8EBB4A44B492341DB5 /* Galano Grotesque Alt Bold.otf in Resources */,
+				874B72A767CD4D4283E05E09 /* Galano Grotesque Alt Bold.woff in Resources */,
+				3793716C9FEA4D549FC86973 /* Galano Grotesque Alt DEMO Bold.otf in Resources */,
+				9CC3881419124AFEBF5D21F7 /* Galano Grotesque Alt DEMO Bold.woff in Resources */,
+				0EB7A669669D4631AEE4D3FA /* Galano Grotesque Alt Extra Bold Italic.otf in Resources */,
+				6F1C3926AC374C03BFAB4AB0 /* Galano Grotesque Alt Extra Bold Italic.woff in Resources */,
+				C1E433D6772D4EDCB05276F7 /* Galano Grotesque Alt Extra Bold.otf in Resources */,
+				64492E77D18C4577AB93A581 /* Galano Grotesque Alt Extra Bold.woff in Resources */,
+				CCA81A3A876943569A4B3CCF /* Galano Grotesque Alt Extra Light Italic.otf in Resources */,
+				4CDE9625EB4D4123A435C784 /* Galano Grotesque Alt Extra Light Italic.woff in Resources */,
+				1C3A571A05FC443FBD144C45 /* Galano Grotesque Alt Extra Light.otf in Resources */,
+				1821141DDE2847D18A2EFA58 /* Galano Grotesque Alt Extra Light.woff in Resources */,
+				8D79951DC99E4D2FAA863D83 /* Galano Grotesque Alt Heavy Italic.otf in Resources */,
+				DF76B9DAEE4C4CDB989CB806 /* Galano Grotesque Alt Heavy Italic.woff in Resources */,
+				C2047C0752B14808A9CA850B /* Galano Grotesque Alt Heavy.otf in Resources */,
+				83969EFA35A7442BA9E354E2 /* Galano Grotesque Alt Heavy.woff in Resources */,
+				E3257D601878411BAB8E9D7D /* Galano Grotesque Alt Italic.otf in Resources */,
+				A52E7289F05C4DE19D7844AC /* Galano Grotesque Alt Italic.woff in Resources */,
+				1CFDEEA866584F09A313FA22 /* Galano Grotesque Alt Light Italic.otf in Resources */,
+				8D2698346DA649AF82E8E687 /* Galano Grotesque Alt Light Italic.woff in Resources */,
+				0CC7151588AF45048156A9B8 /* Galano Grotesque Alt Light.otf in Resources */,
+				61E85DD758294C5999A88294 /* Galano Grotesque Alt Light.woff in Resources */,
+				266C90667D424A37946542AD /* Galano Grotesque Alt Medium Italic.otf in Resources */,
+				9E42F16B38F743C48DBAAD22 /* Galano Grotesque Alt Medium Italic.woff in Resources */,
+				BDD342BE65FD40349E22E949 /* Galano Grotesque Alt Medium.otf in Resources */,
+				E091249C228C42979B3DB132 /* Galano Grotesque Alt Medium.woff in Resources */,
+				43F911F64CFA42AEB1608FAD /* Galano Grotesque Alt Semi Bold Italic.otf in Resources */,
+				5BE97DFF2E2849CC8382ACC0 /* Galano Grotesque Alt Semi Bold Italic.woff in Resources */,
+				00ACE9C2FC7D4BC0826C0406 /* Galano Grotesque Alt Semi Bold.otf in Resources */,
+				4CE09425987A4A54B47A19DD /* Galano Grotesque Alt Semi Bold.woff in Resources */,
+				C74314C3470049548108DD2A /* Galano Grotesque Alt Thin Italic.otf in Resources */,
+				65E157B71B7C4DA7B953FA9A /* Galano Grotesque Alt Thin Italic.woff in Resources */,
+				F4FEAE92A84C44D681F7EDB7 /* Galano Grotesque Alt Thin.otf in Resources */,
+				284DDD6C19724750A9EA60ED /* Galano Grotesque Alt Thin.woff in Resources */,
+				DBD3CAC5713742179A885D1F /* Galano Grotesque Alt.otf in Resources */,
+				A8752B0FCB464235A4A101C7 /* Galano Grotesque Alt.woff in Resources */,
+				7C15275AA55D464DAA666240 /* Galano Grotesque Black Italic.otf in Resources */,
+				5697D516E9404D16843FDBB7 /* Galano Grotesque Black Italic.woff in Resources */,
+				B8FE2F2AAC4B48C3AF108081 /* Galano Grotesque Black.otf in Resources */,
+				48BE6CD600DC470287582DAF /* Galano Grotesque Black.woff in Resources */,
+				1040529AC146459F83E04FE8 /* Galano Grotesque Bold Italic.otf in Resources */,
+				E037232FEF65422AABE85ACB /* Galano Grotesque Bold Italic.woff in Resources */,
+				477704DD46DC4EC8852E4B94 /* Galano Grotesque Bold.otf in Resources */,
+				1AB2C87763914EB1AF362127 /* Galano Grotesque Bold.woff in Resources */,
+				DEB715A96E814D32AAE78840 /* Galano Grotesque DEMO Bold.otf in Resources */,
+				DDF584C4744340DBB7BC02CA /* Galano Grotesque DEMO Bold.woff in Resources */,
+				E15EC13393AC402B8DE77BA9 /* Galano Grotesque Extra Bold Italic.otf in Resources */,
+				400AA62569564284A84C5743 /* Galano Grotesque Extra Bold Italic.woff in Resources */,
+				FF9975766D4E4303AB1E0A64 /* Galano Grotesque Extra Bold.otf in Resources */,
+				B1613221E9A14254A5BDAE1C /* Galano Grotesque Extra Bold.woff in Resources */,
+				765A8F9431DE466EB1C7F23A /* Galano Grotesque Extra Light Italic.otf in Resources */,
+				736E277C6E5341D5878D695C /* Galano Grotesque Extra Light Italic.woff in Resources */,
+				BC0DF85364DF4B03ADCFD488 /* Galano Grotesque Extra Light.otf in Resources */,
+				C2FDA9CFD0D74D828AA5895F /* Galano Grotesque Extra Light.woff in Resources */,
+				B436363DB8614AC2BCE454A8 /* Galano Grotesque Heavy Italic.otf in Resources */,
+				BEA19A3B79134AEABF815171 /* Galano Grotesque Heavy Italic.woff in Resources */,
+				D73362829A66453491AD3B01 /* Galano Grotesque Heavy.otf in Resources */,
+				0D6D3A44981644B4A5905E9C /* Galano Grotesque Heavy.woff in Resources */,
+				1FC571FC9DB048D0BDE29781 /* Galano Grotesque Italic.otf in Resources */,
+				C9FC1CCB79824F6FABF3D1BD /* Galano Grotesque Italic.woff in Resources */,
+				E2718FDC03C64C36BC22E12E /* Galano Grotesque Light Italic.otf in Resources */,
+				C23515569C1B4013A0E427E4 /* Galano Grotesque Light Italic.woff in Resources */,
+				E21737CE75FC42FEA99D59BF /* Galano Grotesque Light.otf in Resources */,
+				F504DA95F10D44058B91FD5D /* Galano Grotesque Light.woff in Resources */,
+				F294B5B62DC749EE875262E7 /* Galano Grotesque Medium Italic.otf in Resources */,
+				FD6AB9CF359D4882B3123C9D /* Galano Grotesque Medium Italic.woff in Resources */,
+				2535FE81FDCF4D138A36A15D /* Galano Grotesque Medium.otf in Resources */,
+				94AD3CC5D1AA4A94A97C19E3 /* Galano Grotesque Medium.woff in Resources */,
+				66DA18C1080F4D8CBE535EEB /* Galano Grotesque Semi Bold Italic.otf in Resources */,
+				85E993ABCB3B40BD8FEC6994 /* Galano Grotesque Semi Bold Italic.woff in Resources */,
+				7B14B3A1E2BF434A9396F4E0 /* Galano Grotesque Semi Bold.otf in Resources */,
+				D8FA6C52F338402582153B80 /* Galano Grotesque Semi Bold.woff in Resources */,
+				95DE2CF64384478BB585747D /* Galano Grotesque Thin Italic.otf in Resources */,
+				618A70C389804A1280DE0900 /* Galano Grotesque Thin Italic.woff in Resources */,
+				602675FB91634A9E8CBCF51E /* Galano Grotesque Thin.woff in Resources */,
+				E69CA1D578AD4EC2BD0214C2 /* Galano Grotesque.otf in Resources */,
+				28935785617C473CB0FF1A1D /* Galano Grotesque.woff in Resources */,
+				241B89B399C54B3DB4C2D02A /* digital-7 italic.ttf in Resources */,
+				2EB51A0806AF448BAFEE97A8 /* digital-7 mono italic.ttf in Resources */,
+				CA9E29432B0D4DCB9CE6AA07 /* digital-7 mono.ttf in Resources */,
+				FD16118149374531890B8796 /* digital-7.ttf in Resources */,
+				6405B2991B9F467094B93696 /* OpenSans-Bold.ttf in Resources */,
+				D734DFB6C4694DB395F08859 /* OpenSans-BoldItalic.ttf in Resources */,
+				5AC21B5A30CC4D6A9B8A7924 /* OpenSans-ExtraBold.ttf in Resources */,
+				31FAE1E739E140E09CB9E0E3 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				1C3412DB6D044675AC649EB2 /* OpenSans-Italic.ttf in Resources */,
+				9FF590AC7B2F4F4C91527F57 /* OpenSans-Light.ttf in Resources */,
+				738D06FB7DBA468ABD70AEF7 /* OpenSans-LightItalic.ttf in Resources */,
+				66F641BC7CCD40B4BEBE414C /* OpenSans-Regular.ttf in Resources */,
+				ABB7C45D7D6D4B7F8742B176 /* OpenSans-Semibold.ttf in Resources */,
+				2327A7CB23384DC2B0A0F4D8 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				ECE0F5AC5ADC49DDA2A2EB34 /* OpenSans.ttf in Resources */,
+				C6E52441D5F44BF1BFA39B50 /* Digital-7 Italic.ttf in Resources */,
+				F308C3089DE84ED4AEF3D1E6 /* Digital-7 Mono Italic.ttf in Resources */,
+				8A7B2FFBA74B45E8AE1D14AB /* Digital-7 Mono.ttf in Resources */,
+				373935CD471143FD9A35D278 /* Digital-7.ttf in Resources */,
+				7A45F93113614EDFBEF8C2F5 /* GalanoGrotesque-Black.otf in Resources */,
+				E6E2D5C1CF234B8B9CC9CFA0 /* GalanoGrotesque-BlackItalic.otf in Resources */,
+				33492F6C722A4F22B5EAB8D4 /* GalanoGrotesque-Bold.otf in Resources */,
+				81C91A0E0DDE4F3DB20C9DBB /* GalanoGrotesque-BoldItalic.otf in Resources */,
+				32B89ABE3741490F87C22FB2 /* GalanoGrotesque-ExtraBold.otf in Resources */,
+				C1DB7860BC094DC79ACABBBC /* GalanoGrotesque-ExtraBoldItalic.otf in Resources */,
+				267DC22E88A54F839DB9D092 /* GalanoGrotesque-ExtraLight.otf in Resources */,
+				6FDE52ED02B84E7D9B6EC86F /* GalanoGrotesque-ExtraLightItalic.otf in Resources */,
+				16BD545D5EE44F56871007FB /* GalanoGrotesque-Heavy.otf in Resources */,
+				4B4CB853902345CDA583289A /* GalanoGrotesque-HeavyItalic.otf in Resources */,
+				681C9FC0F17B4F4CBEC15FDA /* GalanoGrotesque-Italic.otf in Resources */,
+				BD621995A7844984BE31CECA /* GalanoGrotesque-Light.otf in Resources */,
+				E144CF36A6C046BE81BC1EFE /* GalanoGrotesque-LightItalic.otf in Resources */,
+				0DB78B4455AB44D295E9F5C2 /* GalanoGrotesque-Medium.otf in Resources */,
+				52FDEEF05B6748C1BF89F15C /* GalanoGrotesque-MediumItalic.otf in Resources */,
+				7977BA1AF47C4303BC255A04 /* GalanoGrotesque-Regular.otf in Resources */,
+				05FFFDC64ADB4161A8D2CCE9 /* GalanoGrotesque-SemiBold.otf in Resources */,
+				C3EB32D9450D420C95EAA9AD /* GalanoGrotesque-SemiBoldItalic.otf in Resources */,
+				BB42D0A0FB1242759F801BC2 /* GalanoGrotesque-Thin.otf in Resources */,
+				697D52515C3847D590E72993 /* GalanoGrotesque-ThinItalic.otf in Resources */,
+				83702CB2E06E4109A9ACAE2B /* GalanoGrotesqueAlt-Black.otf in Resources */,
+				CD8218D4D3244D63B930EDDC /* GalanoGrotesqueAlt-BlackItalic.otf in Resources */,
+				F6BD404DF6384868B6ED17DA /* GalanoGrotesqueAlt-Bold.otf in Resources */,
+				B38387A4887C4905A60E24FD /* GalanoGrotesqueAlt-BoldItalic.otf in Resources */,
+				0F893210BC3A406684CA498E /* GalanoGrotesqueAlt-ExtraBold.otf in Resources */,
+				4017CB68EF4D403691ACF9C1 /* GalanoGrotesqueAlt-ExtraBoldItalic.otf in Resources */,
+				989D8392411D47D78F7F868A /* GalanoGrotesqueAlt-ExtraLight.otf in Resources */,
+				6B66C26C44144E7FB44D9C1E /* GalanoGrotesqueAlt-ExtraLightItalic.otf in Resources */,
+				645513EAA9974B7E957FB9DA /* GalanoGrotesqueAlt-Heavy.otf in Resources */,
+				80A9B3E215F6402297DFA49B /* GalanoGrotesqueAlt-HeavyItalic.otf in Resources */,
+				5BB1AB3DE1B546B1A3ED2BC5 /* GalanoGrotesqueAlt-Italic.otf in Resources */,
+				F965F01437CA4B5496077B71 /* GalanoGrotesqueAlt-Light.otf in Resources */,
+				DC35C0729F2E414FAFBF3B98 /* GalanoGrotesqueAlt-LightItalic.otf in Resources */,
+				C2911C0166B0482EB6FC1D5D /* GalanoGrotesqueAlt-Medium.otf in Resources */,
+				4ACDC3F4FE6043AF9D099591 /* GalanoGrotesqueAlt-MediumItalic.otf in Resources */,
+				F18480E3A6344D31A862E491 /* GalanoGrotesqueAlt-Regular.otf in Resources */,
+				636813EAA59043318A9CCA95 /* GalanoGrotesqueAlt-SemiBold.otf in Resources */,
+				B7024C1539D0440E84F8EDDC /* GalanoGrotesqueAlt-SemiBoldItalic.otf in Resources */,
+				BB8A7D31A4774DC7BC0D96F2 /* GalanoGrotesqueAlt-Thin.otf in Resources */,
+				AB7E384EA73F4E3A85737624 /* GalanoGrotesqueAlt-ThinItalic.otf in Resources */,
+				A8F95B9A26D943A593573E30 /* GalanoGrotesqueAltDEMO-Bold.otf in Resources */,
+				0A4973BB4C214071B5DAEA85 /* GalanoGrotesqueDEMO-Bold.otf in Resources */,
+				543977DE3A7B4851BE3DC0E6 /* Open Sans Extrabold.ttf in Resources */,
+				019A7B2C17C64C7298059A5C /* Open Sans Semibold.ttf in Resources */,
+				D0783071BE7942C59EFB8BFB /* Open Sans.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* MedicalAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* MedicalAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* MedicalApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* MedicalApp-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = MedicalApp;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = MedicalAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalApp.app/MedicalApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = MedicalAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalApp.app/MedicalApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = MedicalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = MedicalApp;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = MedicalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_NAME = MedicalApp;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = "MedicalApp-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MedicalApp-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = "MedicalApp-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MedicalApp-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = "MedicalApp-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MedicalApp-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalApp-tvOS.app/MedicalApp-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)..\node_modules\neact-native-vector-iconsRNVectorIconsManager",
+					"$(SRCROOT)..\node_modules\neact-native-svgios/**",
+					"$(SRCROOT)..\node_modules\neact-native-text-sizeios",
+				);
+				INFOPLIST_FILE = "MedicalApp-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MedicalApp-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicalApp-tvOS.app/MedicalApp-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MedicalAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MedicalApp-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "MedicalApp-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
